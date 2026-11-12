@@ -57,9 +57,10 @@
     }
 
     var stats = document.querySelector(".stats");
-    if (stats && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (stats) {
       var items = Array.prototype.slice.call(stats.querySelectorAll(".stat-num b")).map(function (el) {
-        var raw = el.textContent.trim();
+        var raw = el.getAttribute("data-to") || el.textContent.trim();
+        el.setAttribute("data-to", raw);
         if (raw.indexOf("/") !== -1) return { el: el, kind: "pair", to: parseInt(raw, 10) };
         return {
           el: el,
@@ -80,7 +81,7 @@
         var start = performance.now();
         paint(0);
         function frame() {
-          var p = Math.min(1, (performance.now() - start) / 1400);
+          var p = Math.min(1, (performance.now() - start) / 1600);
           paint(1 - Math.pow(1 - p, 3));
           if (p < 1) setTimeout(frame, 16);
         }
@@ -89,7 +90,7 @@
       var seen = false;
       function inView() {
         var box = stats.getBoundingClientRect();
-        return box.top < window.innerHeight * 0.9 && box.bottom > 40;
+        return box.top < window.innerHeight * 0.88 && box.bottom > 40;
       }
       function check() {
         if (seen || !inView()) return;
@@ -99,6 +100,31 @@
       }
       window.addEventListener("scroll", check, { passive: true });
       check();
+      if ("IntersectionObserver" in window) {
+        var statsIo = new IntersectionObserver(function (entries) {
+          if (!entries.some(function (entry) { return entry.isIntersecting; })) return;
+          statsIo.disconnect();
+          if (!seen) check();
+        }, { threshold: 0.35 });
+        statsIo.observe(stats);
+      }
+    }
+
+    var blocks = document.querySelectorAll(
+      ".intro-card, .highlights li, .section h2, .card, .stats, .shots h2, .shot-lead, .shot-grid a, .shot-more, .book-card > img, .book-card > div, .news-home h2, .news-card, .footer"
+    );
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("reveal");
+          io.unobserve(entry.target);
+        });
+      }, { threshold: 0.18, rootMargin: "0px 0px -8% 0px" });
+      blocks.forEach(function (el, i) {
+        if (i % 4 === 3) el.classList.add("reveal-delay");
+        io.observe(el);
+      });
     }
   }
 })();
