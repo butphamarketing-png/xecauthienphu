@@ -7,6 +7,22 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="loader" id="loader" role="status">
+    <img src="https://xecauthienphu.com/images/2.png" alt="Thiên Phú">
+    <p class="loader-name">THIÊN PHÚ</p>
+    <div class="loader-spin" aria-hidden="true"></div>
+    <p class="loader-wait">Đang tải, vui lòng đợi ...</p>
+  </div>
+  <script>
+    document.documentElement.classList.add("is-loading");
+    setTimeout(function () {
+      var el = document.getElementById("loader");
+      document.documentElement.classList.remove("is-loading");
+      if (!el) return;
+      el.classList.add("off");
+      setTimeout(function () { el.remove(); }, 500);
+    }, 3000);
+  </script>
   <div class="ticker"><div class="ticker-track"><p>» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p><p aria-hidden="true">» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p></div></div>
   <header class="top">
     <div class="wrap top-row">
