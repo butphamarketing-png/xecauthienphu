@@ -1,0 +1,126 @@
+{
+  "company": {
+    "name": "CÔNG TY TNHH GIAO NHẬN VẬN TẢI THIÊN PHÚ",
+    "address": "354/16/6/12C QL1A, KP3, P. Bình Hưng Hòa B, Q. Bình Tân, TP.HCM",
+    "yards": [
+      "Bãi xe 1: KCN Vĩnh Lộc, Bình Tân, TP.HCM",
+      "Bãi xe 2: Khu chế xuất Tân Thuận, Quận 7, TP.HCM",
+      "Bãi xe 3: KCN Thuận Đạo, Bến Lức, Long An",
+      "Bãi xe 4: KCN Hải Sơn, Đức Hòa Đông, Đức Hòa, Long An",
+      "Bãi xe 5: KCN Biên Hòa 2, Biên Hòa, Đồng Nai",
+      "Bãi xe 6: Ngã Tư 550, Bình Hòa, Thuận An, Bình Dương"
+    ],
+    "phone": "0908.685.815",
+    "phone2": "0938.766.815",
+    "email": "xenangthienphu@gmail.com",
+    "website": "xecauthienphu.com",
+    "zalo": "0908685815",
+    "logo": "https://xecauthienphu.com/images/2.png",
+    "wordmark": "https://xecauthienphu.com/images/3-1.png",
+    "ticker": "» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «",
+    "tagline": "Nâng Cẩu Thiên Phú — cho thuê xe nâng, xe cẩu"
+  },
+  "home": {
+    "introImage": "https://xecauthienphu.com/images/xecau/z4859294781057_338ee9af0a239de1cff2a4a4bf1050ef.jpg",
+    "introImageAlt": "Xe nâng và xe cẩu Thiên Phú đang làm việc",
+    "introTitle": "Giới thiệu về",
+    "introAccent": "Thiên Phú",
+    "introText": "Công ty TNHH Giao nhận Vận tải Thiên Phú chuyên nâng chuyển, bốc dỡ hàng hóa, máy móc công nghiệp nặng, lên xuống container, cho thuê xe nâng và xe cẩu. Chúng tôi sở hữu hệ thống thiết bị đa dạng, đội ngũ kỹ thuật lành nghề, đáp ứng nhanh chóng các nhu cầu nâng hạ, di dời và lắp đặt máy móc tại TP.HCM, Long An, Bình Dương và Đồng Nai.",
+    "checks": [
+      "Cho thuê xe nâng, xe cẩu đa tải trọng, thiết bị hiện đại",
+      "Nâng hạ, di dời, lắp đặt máy móc công nghiệp an toàn",
+      "Bốc dỡ hàng hóa, rút container, vận chuyển máy",
+      "Phục vụ nhanh chóng 24/24, đúng tiến độ"
+    ],
+    "highlights": [
+      { "title": "Thiết bị đa dạng", "text": "Xe nâng, xe cẩu, xe tải, đội thủy lực và rùa đẩy máy" },
+      { "title": "Đội ngũ chuyên nghiệp", "text": "Kỹ thuật lành nghề, kinh nghiệm thực tế" },
+      { "title": "Phục vụ linh hoạt 24/24", "text": "Tại TP.HCM, Long An, Bình Dương và Đồng Nai" },
+      { "title": "An toàn – Uy tín", "text": "Thi công đúng quy trình, đảm bảo an toàn tài sản" }
+    ],
+    "stats": [
+      { "value": "10", "unit": "năm", "label": "Kinh nghiệm" },
+      { "value": "24/24", "unit": "", "label": "Phục vụ liên tục" },
+      { "value": "1000+", "unit": "", "label": "Khách hàng phục vụ" },
+      { "value": "100%", "unit": "", "label": "Tận tâm phục vụ" }
+    ],
+    "slides": [
+      { "src": "https://xecauthienphu.com/images/slideshow/bn2.jpg", "alt": "Xe nâng Thiên Phú" },
+      { "src": "https://xecauthienphu.com/images/slideshow/bn3.png", "alt": "Dịch vụ xe nâng" },
+      { "src": "https://xecauthienphu.com/images/slideshow/bn5.png", "alt": "Cho thuê xe cẩu" }
+    ],
+    "shotTitle": "Hình ảnh",
+    "shotAccent": "hoạt động thực tế",
+    "shotLead": "Một số hình ảnh xe nâng, xe cẩu và thi công nâng hạ máy móc của Thiên Phú.",
+    "bookImage": "https://xecauthienphu.com/images/xecau/z4859294781057_338ee9af0a239de1cff2a4a4bf1050ef.jpg",
+    "bookImageAlt": "Xe cẩu Thiên Phú nâng máy móc",
+    "bookTitle": "Đặt hẹn",
+    "bookAccent": "dịch vụ",
+    "bookLead": "Quý khách vui lòng để lại thông tin, Thiên Phú sẽ liên hệ và tư vấn nhanh nhất.",
+    "newsTitle": "Tin tức và",
+    "newsAccent": "kinh nghiệm",
+    "newsLead": "Tin dịch vụ và kinh nghiệm thi công nâng hạ, cho thuê xe nâng, xe cẩu của Thiên Phú."
+  },
+  "services": [
+    { "title": "Dịch vụ nâng cẩu hàng hóa", "href": "dich-vu.html#nang-cau", "image": "https://xecauthienphu.com/media/k2/items/cache/item1418571705124148_L.jpg", "home": true, "footer": true },
+    { "title": "Cho thuê xe nâng tại TP.HCM", "href": "dich-vu.html#xe-nang-tphcm", "image": "https://xecauthienphu.com/media/k2/items/cache/item1657921764393520_L.jpg", "home": true, "footer": true },
+    { "title": "Cho thuê xe nâng", "href": "dich-vu.html#xe-nang", "image": "https://xecauthienphu.com/media/k2/items/cache/item8961401699689342_L.jpg", "home": true, "footer": true },
+    { "title": "Cho thuê xe cẩu", "href": "cho-thue-xe-cau.html", "image": "https://xecauthienphu.com/media/k2/items/cache/item9095431699689331_L.jpg", "home": true, "footer": true },
+    { "title": "Đóng pallet - kiện gỗ xuất khẩu", "href": "dich-vu.html#pallet", "image": "https://xecauthienphu.com/media/k2/items/cache/item9865601705124081_L.jpg", "home": true, "footer": true },
+    { "title": "Cho thuê xe cẩu tại TP.HCM", "href": "dich-vu.html#xe-cau-tphcm", "image": "https://xecauthienphu.com/media/k2/items/cache/item2295691764401000_L.jpg", "home": true, "footer": true },
+    { "title": "Rút cont máy tại TP.HCM", "href": "tin-tuc.html", "image": "https://xecauthienphu.com/media/k2/items/cache/item5410111764208054_L.jpg", "home": true, "footer": false },
+    { "title": "Vận chuyển máy tại Long An", "href": "tin-tuc.html", "image": "https://xecauthienphu.com/media/k2/items/cache/item9044981763352877_L.jpg", "home": true, "footer": false },
+    { "title": "Cho thuê xe nâng Đức Hòa", "href": "dich-vu.html#duc-hoa", "image": "https://xecauthienphu.com/media/k2/items/cache/item8263821761980313_L.jpg", "home": true, "footer": true },
+    { "title": "Cho thuê xe cẩu Đức Hòa", "href": "dich-vu.html#duc-hoa", "image": "https://xecauthienphu.com/media/k2/items/cache/item8129421761964006_L.jpg", "home": true, "footer": true }
+  ],
+  "articles": [
+    { "id": "nang-cau", "title": "Nâng cẩu hàng hóa, máy móc", "image": "", "body": "Bốc dỡ, nâng cẩu, vận chuyển máy móc đến vị trí lắp đặt. Lên xuống container, di dời thiết bị trong phạm vi hẹp, cẩu hàng lên cao và đưa máy xuống tầng hầm." },
+    { "id": "xe-nang", "title": "Cho thuê xe nâng", "image": "", "body": "Xe nâng 2 tấn, 2.5 tấn, 3 tấn, 3.5 tấn, 4 tấn, 5 tấn, 7 tấn, 10 tấn, 12 tấn và 15 tấn. Phục vụ kho xưởng, nhà máy và khu công nghiệp." },
+    { "id": "xe-nang-tphcm", "title": "Cho thuê xe nâng tại TP.HCM", "image": "", "body": "Nâng hạ, bốc dỡ, lên xuống container, di dời máy móc công nghiệp. Hỗ trợ theo giờ, ngày hoặc tháng. Hotline 0908.685.815." },
+    { "id": "xe-cau-tphcm", "title": "Cho thuê xe cẩu tại TP.HCM", "image": "", "body": "Nâng hạ, vận chuyển máy móc, bốc xếp hàng và lên xuống container. Xe cẩu thùng và cẩu tự hành, gọi là có mặt." },
+    { "id": "duc-hoa", "title": "Xe nâng, xe cẩu Đức Hòa", "image": "", "body": "Bãi xe tại KCN Hải Sơn, Đức Hòa Đông. Điều xe trong khu vực Đức Hòa, Long An. Có hợp đồng và hóa đơn." },
+    { "id": "pallet", "title": "Đóng pallet - kiện gỗ xuất khẩu", "image": "https://xecauthienphu.com/images/dich-vu/pallet/IMG_20230518_161607.jpg", "body": "Đóng pallet gỗ và kiện gỗ theo kích thước hàng, phục vụ xuất khẩu và vận chuyển nội địa." }
+  ],
+  "photos": [
+    { "src": "https://xecauthienphu.com/images/anh/a1.jpg", "alt": "Xe cẩu Thiên Phú đang nâng hàng" },
+    { "src": "https://xecauthienphu.com/images/anh/a2.jpg", "alt": "Xe nâng trong xưởng" },
+    { "src": "https://xecauthienphu.com/images/anh/a3.jpg", "alt": "Di dời máy móc" },
+    { "src": "https://xecauthienphu.com/images/anh/a4.jpg", "alt": "Xe nâng rút container" },
+    { "src": "https://xecauthienphu.com/images/anh/a5.jpg", "alt": "Xe cẩu nâng thiết bị" },
+    { "src": "https://xecauthienphu.com/images/anh/a6.jpg", "alt": "Ảnh hoạt động 6" },
+    { "src": "https://xecauthienphu.com/images/anh/a7.jpg", "alt": "Ảnh hoạt động 7" },
+    { "src": "https://xecauthienphu.com/images/anh/a8.jpg", "alt": "Ảnh hoạt động 8" },
+    { "src": "https://xecauthienphu.com/images/anh/a9.jpg", "alt": "Ảnh hoạt động 9" }
+  ],
+  "news": [
+    { "title": "Dịch vụ nâng cẩu hàng hóa, máy móc", "excerpt": "Cho thuê xe nâng, xe cẩu, bốc dỡ hàng hóa, nâng cẩu và vận chuyển máy móc đến đúng vị trí lắp đặt.", "image": "https://xecauthienphu.com/images/nangcau/20230826_094021.jpg", "href": "dich-vu.html#nang-cau", "home": true, "bullets": ["Lên xuống hàng container", "Di dời thiết bị công nghiệp nặng", "Vận chuyển hàng siêu trường, siêu trọng", "Cẩu hàng lên cao, đưa máy xuống tầng hầm"] },
+    { "title": "Cho thuê xe nâng hàng tại TP.HCM và các tỉnh", "excerpt": "Xe nâng dầu và xe nâng điện, sức nâng từ 2 tấn đến 15 tấn.", "image": "https://xecauthienphu.com/images/xenang/20200222_080608.jpg", "href": "dich-vu.html#xe-nang", "home": true, "bullets": [] },
+    { "title": "Cho thuê xe cẩu hàng tại TP.HCM, Long An, Bình Dương, Đồng Nai", "excerpt": "Đội xe cẩu nhiều tải trọng, phục vụ 24/24 tất cả các ngày trong tuần.", "image": "https://xecauthienphu.com/images/xecau/z4859294781057_338ee9af0a239de1cff2a4a4bf1050ef.jpg", "href": "cho-thue-xe-cau.html", "home": true, "bullets": [] },
+    { "title": "Cho thuê xe cẩu phục vụ công trình xây dựng tại TP.HCM", "excerpt": "Cẩu tự hành, cẩu Kato, tài xế có chứng chỉ, thiết bị kiểm định.", "image": "https://xecauthienphu.com/media/k2/items/cache/item3949771778961858_S.jpg", "href": "cho-thue-xe-cau.html", "home": false, "bullets": [] },
+    { "title": "Cho thuê xe nâng tại TP.HCM", "excerpt": "Nâng hạ, bốc dỡ, lên xuống container, di dời máy móc. Hỗ trợ 24/7.", "image": "https://xecauthienphu.com/media/k2/items/cache/item1657921764393520_S.jpg", "href": "dich-vu.html#xe-nang-tphcm", "home": false, "bullets": [] },
+    { "title": "Thuê xe cẩu Long An, có mặt sau khoảng 30 phút", "excerpt": "Cẩu thùng và cẩu Kato, khảo sát không tính phí, phục vụ xuyên đêm.", "image": "https://xecauthienphu.com/images/tin-tuc/long-an/IMG_20230526_163134.jpg", "href": "dich-vu.html#duc-hoa", "home": false, "bullets": [] },
+    { "title": "Thuê xe nâng trong kho xưởng tại TP.HCM", "excerpt": "Nhiều tải trọng, có xe nhanh, báo giá rõ theo giờ, ngày, tháng.", "image": "https://xecauthienphu.com/images/tin-tuc/tphcm/z5347588161727_f2d8aa692caf294ed826b23e43986ae6.jpg", "href": "dich-vu.html#xe-nang", "home": false, "bullets": [] }
+  ],
+  "about": {
+    "image": "https://xecauthienphu.com/images/anh/a1.jpg",
+    "paragraphs": [
+      "Trước hết, ban lãnh đạo cùng toàn thể nhân viên Công ty xin cảm ơn Quý công ty đã tín nhiệm và hợp tác. Công ty TNHH Giao nhận Vận tải Thiên Phú hoạt động trong lĩnh vực nâng chuyển, bốc dỡ hàng hóa, máy móc công nghiệp nặng, lên xuống hàng container, cho thuê xe nâng và xe cẩu.",
+      "Trang thiết bị gồm xe nâng, xe tải, xe cẩu các loại, xe nâng tay, đội thủy lực và rùa đẩy máy, phục vụ vận chuyển và nâng hạ máy móc thiết bị công nghiệp.",
+      "Khu vực phục vụ: TP.HCM, Long An, Bình Dương, Đồng Nai và các tỉnh lân cận. Hotline 0908.685.815 - 0938.766.815."
+    ]
+  },
+  "crane": {
+    "title": "Cho thuê xe cẩu",
+    "lead": "Cho thuê xe cẩu Thiên Phú đã hoạt động nhiều năm trong nghề xe cẩu. Đội ngũ lái xe có tay nghề, máy móc đi kèm, xe cẩu thùng và xe cẩu đời mới.",
+    "image": "https://xecauthienphu.com/images/z4879859607597_497b0540bfea53893c4d89428ef0ee2b.jpg",
+    "bullets": [
+      "Cẩu và vận chuyển máy móc có trọng lượng nặng",
+      "Cẩu kèo cột nhà xưởng, nhà tiền chế",
+      "Cẩu và lắp ráp thiết bị công trình",
+      "Cẩu và vận chuyển container",
+      "Cẩu xe nâng, silo, cây cảnh, tủ điện công nghiệp",
+      "Cẩu và nâng người lắp cục nóng, sửa chữa đèn"
+    ],
+    "closing": "Lái xe có chuyên môn, giữ an toàn khi cẩu hạ, bốc dỡ và vận chuyển, đúng giờ. Giá ổn định, khách dùng lâu dài được ưu đãi. Liên hệ 24/24: 0908.685.815."
+  }
+}

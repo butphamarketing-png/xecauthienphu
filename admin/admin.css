@@ -1,0 +1,75 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: #222; background: #f6f1ef; }
+button, input, textarea, select { font: inherit; }
+button { cursor: pointer; }
+.login {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+.login form, .panel, .card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+}
+.login form { width: min(420px, 100%); padding: 28px; display: grid; gap: 12px; }
+h1 { margin: 0; font-size: 28px; }
+h1 span, .topbar b { color: #ed3237; }
+.muted { margin: 0; color: #666; }
+label { display: grid; gap: 4px; font-weight: 700; font-size: 14px; }
+input, textarea, select {
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: #fff;
+}
+textarea { min-height: 90px; resize: vertical; }
+.btn {
+  border: 0;
+  border-radius: 999px;
+  background: #ed3237;
+  color: #fff;
+  font-weight: 800;
+  padding: 10px 18px;
+}
+.btn.ghost { background: #fff; color: #ed3237; border: 1px solid #ed3237; }
+.btn.small { padding: 6px 12px; font-size: 13px; }
+.err { color: #ed3237; font-weight: 700; min-height: 1.2em; }
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  padding: 14px 18px;
+  background: #fff;
+  border-bottom: 4px solid #ed3237;
+}
+.topbar p { margin: 0; }
+.layout { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 70px); }
+.side { background: #fff; padding: 12px; display: grid; align-content: start; gap: 6px; }
+.side button {
+  text-align: left;
+  border: 0;
+  background: transparent;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 700;
+}
+.side button.on { background: #ed3237; color: #fff; }
+.main { padding: 18px; display: grid; gap: 14px; align-content: start; }
+.card { padding: 16px; display: grid; gap: 10px; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.item { border: 1px solid #f0e4e2; border-radius: 12px; padding: 12px; display: grid; gap: 8px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.check { display: flex; align-items: center; gap: 8px; font-weight: 700; }
+.check input { width: auto; }
+.img-field { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; }
+.ok { color: #0a7a32; font-weight: 700; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #f0e4e2; vertical-align: top; }
+@media (max-width: 800px) {
+  .layout, .row, .img-field { grid-template-columns: 1fr; }
+  .topbar { align-items: flex-start; flex-direction: column; }
+}

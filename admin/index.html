@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quản trị - Nâng Cẩu Thiên Phú</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="login" id="login">
+    <form id="login-form">
+      <h1>Quản trị <span>Thiên Phú</span></h1>
+      <p class="muted">Sửa nội dung website, dịch vụ, hình ảnh, tin tức và yêu cầu khách gửi.</p>
+      <label>Tài khoản<input name="user" autocomplete="username" required></label>
+      <label>Mật khẩu<input name="password" type="password" autocomplete="current-password" required></label>
+      <p class="err" id="login-err"></p>
+      <button class="btn" type="submit">Đăng nhập</button>
+    </form>
+  </div>
+  <div id="app" hidden>
+    <header class="topbar">
+      <p><b>Thiên Phú</b> · quản trị nội dung</p>
+      <div class="actions">
+        <a class="btn ghost" href="../index.html" target="_blank">Xem website</a>
+        <button class="btn" id="save" type="button">Lưu website</button>
+        <button class="btn ghost" id="logout" type="button">Thoát</button>
+      </div>
+    </header>
+    <div class="layout">
+      <nav class="side" id="side"></nav>
+      <main class="main" id="main"></main>
+    </div>
+  </div>
+  <script src="admin.js"></script>
+</body>
+</html>
