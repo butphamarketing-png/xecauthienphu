@@ -612,6 +612,7 @@ html.motion .rise.in {
 .crumb strong { color: #f68121; font-weight: 600; }
 
 .page { padding: 22px 0 40px; }
+.service-cats { margin-top: 8px; }
 .page h1, .page h2 { color: var(--blue); }
 .page h1 { margin: 0 0 12px; font-size: 30px; }
 .page h2 { margin: 22px 0 8px; font-size: 22px; }

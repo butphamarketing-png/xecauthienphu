@@ -223,38 +223,22 @@ function applySite(site) {
     });
   }
 
-  if (page === "dich-vu.html" && Array.isArray(site.articles)) {
-    var box = document.querySelector("main .article");
-    if (box) {
-      box.querySelectorAll("article").forEach(function (el) { el.remove(); });
-      site.articles.forEach(function (article) {
-        var node = document.createElement("article");
-        if (article.id) node.id = article.id;
-        var h2 = document.createElement("h2");
-        h2.textContent = article.title || "";
-        node.appendChild(h2);
-        if (article.image) {
-          var img = document.createElement("img");
-          img.className = "wide";
-          img.src = article.image;
-          img.alt = article.title || "";
-          node.appendChild(img);
-        }
-        var p = document.createElement("p");
-        p.textContent = article.body || "";
-        node.appendChild(p);
-        var links = article.links || (article.href ? [{ href: article.href, label: "Đọc bài đầy đủ" }] : []);
-        links.forEach(function (link) {
-          if (!link || !link.href) return;
-          var more = document.createElement("p");
-          var a = document.createElement("a");
-          a.className = "more";
-          a.href = link.href;
-          a.textContent = link.label || "Đọc bài đầy đủ";
-          more.appendChild(a);
-          node.appendChild(more);
-        });
-        box.appendChild(node);
+  if (page === "dich-vu.html" && Array.isArray(site.services)) {
+    var cats = document.querySelector(".service-cats");
+    if (cats) {
+      cats.innerHTML = "";
+      site.services.forEach(function (s) {
+        var a = document.createElement("a");
+        a.className = "card";
+        a.href = s.href || "dich-vu.html";
+        var img = document.createElement("img");
+        img.src = s.image || "";
+        img.alt = s.title || "";
+        var h3 = document.createElement("h3");
+        h3.textContent = s.title || "";
+        a.appendChild(img);
+        a.appendChild(h3);
+        cats.appendChild(a);
       });
     }
   }
