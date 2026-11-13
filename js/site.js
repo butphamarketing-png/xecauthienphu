@@ -23,14 +23,27 @@ function applySite(site) {
   });
   var logo = document.querySelector(".logo img");
   if (logo && company.logo) logo.src = company.logo;
-  setText(document.querySelector(".logo b"), phone);
+  setText(document.querySelector(".brand-co"), company.name);
+  setText(document.querySelector(".tax-num"), company.tax || "");
+  setText(document.querySelector(".addr"), company.address || "");
   document.querySelectorAll(".hotline-num").forEach(function (el) { el.textContent = phone; });
   document.querySelectorAll(".hotline-box").forEach(function (el) { el.href = "tel:" + tel; });
-  var brandSpans = document.querySelectorAll(".brand p span");
-  if (brandSpans[0]) brandSpans[0].textContent = company.website || "";
-  if (brandSpans[1]) brandSpans[1].textContent = company.email || "";
-  var word = document.querySelector(".brand img");
-  if (word && company.wordmark) word.src = company.wordmark;
+  var siteLink = document.querySelector(".site-url");
+  if (siteLink) {
+    siteLink.textContent = (company.website || "").replace(/^https?:\/\//, "");
+    siteLink.href = "https://" + (company.website || "").replace(/^https?:\/\//, "");
+  }
+  var mailLink = document.querySelector(".mail-url");
+  if (mailLink) {
+    mailLink.textContent = company.email || "";
+    mailLink.href = "mailto:" + (company.email || "");
+  }
+  var mapLink = document.querySelector(".soc-map");
+  if (mapLink && company.address) mapLink.href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(company.address);
+  var zaloLink = document.querySelector(".soc-zalo");
+  if (zaloLink) zaloLink.href = "https://zalo.me/" + digits(company.zalo || phone);
+  var fbLink = document.querySelector(".soc-fb");
+  if (fbLink && company.facebook) fbLink.href = company.facebook;
   document.querySelectorAll(".float a").forEach(function (a) {
     if ((a.getAttribute("href") || "").indexOf("zalo") !== -1) a.href = "https://zalo.me/" + digits(company.zalo || phone);
     if ((a.getAttribute("href") || "").indexOf("tel:") === 0) a.href = "tel:" + tel;
@@ -212,6 +225,17 @@ function applySite(site) {
         var p = document.createElement("p");
         p.textContent = article.body || "";
         node.appendChild(p);
+        var links = article.links || (article.href ? [{ href: article.href, label: "Đọc bài đầy đủ" }] : []);
+        links.forEach(function (link) {
+          if (!link || !link.href) return;
+          var more = document.createElement("p");
+          var a = document.createElement("a");
+          a.className = "more";
+          a.href = link.href;
+          a.textContent = link.label || "Đọc bài đầy đủ";
+          more.appendChild(a);
+          node.appendChild(more);
+        });
         box.appendChild(node);
       });
     }
@@ -274,7 +298,7 @@ function applySite(site) {
     }
   }
 
-  if (page === "cho-thue-xe-cau.html" && site.crane) {
+  if (page === "cho-thue-xe-cau.html" && site.crane && !document.querySelector("main[data-static]")) {
     var crane = document.querySelector("main .article");
     if (crane) {
       setText(crane.querySelector("h1"), site.crane.title);

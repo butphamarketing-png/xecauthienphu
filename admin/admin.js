@@ -198,7 +198,9 @@
     field(box, "Hotline phụ", c, "phone2");
     field(box, "Email", c, "email");
     field(box, "Website", c, "website");
+    field(box, "Mã số thuế", c, "tax");
     field(box, "Số Zalo", c, "zalo");
+    field(box, "Link Facebook", c, "facebook");
     field(box, "Dòng chữ chạy", c, "ticker", true);
     field(box, "Dòng cuối trang", c, "tagline");
     imageField(box, "Logo", c, "logo");

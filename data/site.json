@@ -14,6 +14,8 @@
     "phone2": "0938.766.815",
     "email": "xenangthienphu@gmail.com",
     "website": "xecauthienphu.com",
+    "tax": "0317284567",
+    "facebook": "",
     "zalo": "0908685815",
     "logo": "https://xecauthienphu.com/images/2.png",
     "wordmark": "https://xecauthienphu.com/images/3-1.png",
@@ -33,21 +35,58 @@
       "Phục vụ nhanh chóng 24/24, đúng tiến độ"
     ],
     "highlights": [
-      { "title": "Thiết bị đa dạng", "text": "Xe nâng, xe cẩu, xe tải, đội thủy lực và rùa đẩy máy" },
-      { "title": "Đội ngũ chuyên nghiệp", "text": "Kỹ thuật lành nghề, kinh nghiệm thực tế" },
-      { "title": "Phục vụ linh hoạt 24/24", "text": "Tại TP.HCM, Long An, Bình Dương và Đồng Nai" },
-      { "title": "An toàn – Uy tín", "text": "Thi công đúng quy trình, đảm bảo an toàn tài sản" }
+      {
+        "title": "Thiết bị đa dạng",
+        "text": "Xe nâng, xe cẩu, xe tải, đội thủy lực và rùa đẩy máy"
+      },
+      {
+        "title": "Đội ngũ chuyên nghiệp",
+        "text": "Kỹ thuật lành nghề, kinh nghiệm thực tế"
+      },
+      {
+        "title": "Phục vụ linh hoạt 24/24",
+        "text": "Tại TP.HCM, Long An, Bình Dương và Đồng Nai"
+      },
+      {
+        "title": "An toàn – Uy tín",
+        "text": "Thi công đúng quy trình, đảm bảo an toàn tài sản"
+      }
     ],
     "stats": [
-      { "value": "10", "unit": "năm", "label": "Kinh nghiệm" },
-      { "value": "24/24", "unit": "", "label": "Phục vụ liên tục" },
-      { "value": "1000+", "unit": "", "label": "Khách hàng phục vụ" },
-      { "value": "100%", "unit": "", "label": "Tận tâm phục vụ" }
+      {
+        "value": "10",
+        "unit": "năm",
+        "label": "Kinh nghiệm"
+      },
+      {
+        "value": "24/24",
+        "unit": "",
+        "label": "Phục vụ liên tục"
+      },
+      {
+        "value": "1000+",
+        "unit": "",
+        "label": "Khách hàng phục vụ"
+      },
+      {
+        "value": "100%",
+        "unit": "",
+        "label": "Tận tâm phục vụ"
+      }
     ],
     "slides": [
-      { "src": "https://xecauthienphu.com/images/slideshow/bn2.jpg", "alt": "Xe nâng Thiên Phú" },
-      { "src": "https://xecauthienphu.com/images/slideshow/bn3.png", "alt": "Dịch vụ xe nâng" },
-      { "src": "https://xecauthienphu.com/images/slideshow/bn5.png", "alt": "Cho thuê xe cẩu" }
+      {
+        "src": "https://xecauthienphu.com/images/slideshow/bn2.jpg",
+        "alt": "Xe nâng Thiên Phú"
+      },
+      {
+        "src": "https://xecauthienphu.com/images/slideshow/bn3.png",
+        "alt": "Dịch vụ xe nâng"
+      },
+      {
+        "src": "https://xecauthienphu.com/images/slideshow/bn5.png",
+        "alt": "Cho thuê xe cẩu"
+      }
     ],
     "shotTitle": "Hình ảnh",
     "shotAccent": "hoạt động thực tế",
@@ -62,44 +101,398 @@
     "newsLead": "Tin dịch vụ và kinh nghiệm thi công nâng hạ, cho thuê xe nâng, xe cẩu của Thiên Phú."
   },
   "services": [
-    { "title": "Dịch vụ nâng cẩu hàng hóa", "href": "dich-vu.html#nang-cau", "image": "https://xecauthienphu.com/media/k2/items/cache/item1418571705124148_L.jpg", "home": true, "footer": true },
-    { "title": "Cho thuê xe nâng tại TP.HCM", "href": "dich-vu.html#xe-nang-tphcm", "image": "https://xecauthienphu.com/media/k2/items/cache/item1657921764393520_L.jpg", "home": true, "footer": true },
-    { "title": "Cho thuê xe nâng", "href": "dich-vu.html#xe-nang", "image": "https://xecauthienphu.com/media/k2/items/cache/item8961401699689342_L.jpg", "home": true, "footer": true },
-    { "title": "Cho thuê xe cẩu", "href": "cho-thue-xe-cau.html", "image": "https://xecauthienphu.com/media/k2/items/cache/item9095431699689331_L.jpg", "home": true, "footer": true },
-    { "title": "Đóng pallet - kiện gỗ xuất khẩu", "href": "dich-vu.html#pallet", "image": "https://xecauthienphu.com/media/k2/items/cache/item9865601705124081_L.jpg", "home": true, "footer": true },
-    { "title": "Cho thuê xe cẩu tại TP.HCM", "href": "dich-vu.html#xe-cau-tphcm", "image": "https://xecauthienphu.com/media/k2/items/cache/item2295691764401000_L.jpg", "home": true, "footer": true },
-    { "title": "Rút cont máy tại TP.HCM", "href": "tin-tuc.html", "image": "https://xecauthienphu.com/media/k2/items/cache/item5410111764208054_L.jpg", "home": true, "footer": false },
-    { "title": "Vận chuyển máy tại Long An", "href": "tin-tuc.html", "image": "https://xecauthienphu.com/media/k2/items/cache/item9044981763352877_L.jpg", "home": true, "footer": false },
-    { "title": "Cho thuê xe nâng Đức Hòa", "href": "dich-vu.html#duc-hoa", "image": "https://xecauthienphu.com/media/k2/items/cache/item8263821761980313_L.jpg", "home": true, "footer": true },
-    { "title": "Cho thuê xe cẩu Đức Hòa", "href": "dich-vu.html#duc-hoa", "image": "https://xecauthienphu.com/media/k2/items/cache/item8129421761964006_L.jpg", "home": true, "footer": true }
+    {
+      "title": "Dịch vụ nâng cẩu hàng hóa",
+      "href": "dich-vu-nang-cau-hang-hoa.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item1418571705124148_L.jpg",
+      "home": true,
+      "footer": true
+    },
+    {
+      "title": "Cho thuê xe nâng tại TP.HCM",
+      "href": "cho-thue-xe-nang-tai-tphcm.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item1657921764393520_L.jpg",
+      "home": true,
+      "footer": true
+    },
+    {
+      "title": "Cho thuê xe nâng",
+      "href": "cho-thue-xe-nang.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item8961401699689342_L.jpg",
+      "home": true,
+      "footer": true
+    },
+    {
+      "title": "Cho thuê xe cẩu",
+      "href": "cho-thue-xe-cau.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item9095431699689331_L.jpg",
+      "home": true,
+      "footer": true
+    },
+    {
+      "title": "Đóng pallet - kiện gỗ xuất khẩu",
+      "href": "dong-pallet.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item9865601705124081_L.jpg",
+      "home": true,
+      "footer": true
+    },
+    {
+      "title": "Cho thuê xe cẩu tại TP.HCM",
+      "href": "cho-thue-xe-cau-tai-tphcm.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item2295691764401000_L.jpg",
+      "home": true,
+      "footer": true
+    },
+    {
+      "title": "Rút cont máy tại TP.HCM",
+      "href": "rut-cont-may-tai-tphcm.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item5410111764208054_L.jpg",
+      "home": true,
+      "footer": false
+    },
+    {
+      "title": "Vận chuyển máy tại Long An",
+      "href": "van-chuyen-may-tai-long-an-79478472.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item9044981763352877_L.jpg",
+      "home": true,
+      "footer": false
+    },
+    {
+      "title": "Cho thuê xe nâng Đức Hòa",
+      "href": "cho-thue-xe-nang-duc-hoa.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item8263821761980313_L.jpg",
+      "home": true,
+      "footer": true
+    },
+    {
+      "title": "Cho thuê xe cẩu Đức Hòa",
+      "href": "cho-thue-xe-cau-duc-hoa.html",
+      "image": "https://xecauthienphu.com/media/k2/items/cache/item8129421761964006_L.jpg",
+      "home": true,
+      "footer": true
+    }
   ],
   "articles": [
-    { "id": "nang-cau", "title": "Nâng cẩu hàng hóa, máy móc", "image": "", "body": "Bốc dỡ, nâng cẩu, vận chuyển máy móc đến vị trí lắp đặt. Lên xuống container, di dời thiết bị trong phạm vi hẹp, cẩu hàng lên cao và đưa máy xuống tầng hầm." },
-    { "id": "xe-nang", "title": "Cho thuê xe nâng", "image": "", "body": "Xe nâng 2 tấn, 2.5 tấn, 3 tấn, 3.5 tấn, 4 tấn, 5 tấn, 7 tấn, 10 tấn, 12 tấn và 15 tấn. Phục vụ kho xưởng, nhà máy và khu công nghiệp." },
-    { "id": "xe-nang-tphcm", "title": "Cho thuê xe nâng tại TP.HCM", "image": "", "body": "Nâng hạ, bốc dỡ, lên xuống container, di dời máy móc công nghiệp. Hỗ trợ theo giờ, ngày hoặc tháng. Hotline 0908.685.815." },
-    { "id": "xe-cau-tphcm", "title": "Cho thuê xe cẩu tại TP.HCM", "image": "", "body": "Nâng hạ, vận chuyển máy móc, bốc xếp hàng và lên xuống container. Xe cẩu thùng và cẩu tự hành, gọi là có mặt." },
-    { "id": "duc-hoa", "title": "Xe nâng, xe cẩu Đức Hòa", "image": "", "body": "Bãi xe tại KCN Hải Sơn, Đức Hòa Đông. Điều xe trong khu vực Đức Hòa, Long An. Có hợp đồng và hóa đơn." },
-    { "id": "pallet", "title": "Đóng pallet - kiện gỗ xuất khẩu", "image": "https://xecauthienphu.com/images/dich-vu/pallet/IMG_20230518_161607.jpg", "body": "Đóng pallet gỗ và kiện gỗ theo kích thước hàng, phục vụ xuất khẩu và vận chuyển nội địa." }
+    {
+      "id": "nang-cau",
+      "title": "Nâng cẩu hàng hóa, máy móc",
+      "image": "https://xecauthienphu.com/images/z4879905229851_404bf6d3531d56d320c591a8be9f9094.jpg",
+      "body": "Với nhiều năm kinh nghiệm trong lĩnh vực vận tải chúng tôi tự hào là đơn vị có dịch vụ nâng cẩu hàng hóa tại tphcm đi đầu và giá cả cạnh tranh nhất với phạm vi hoạt động khắp các tỉnh miền nam .Chúng tôi luôn phục vụ nhanh chóng khi khách hàng có nhu cầu cẩu hàng, di dời các vật nặng không thể dùng sức người. Những thế mạnh về nâng cẩu hàng hóa của Thiên Phú :",
+      "links": [
+        {
+          "href": "dich-vu-nang-cau-hang-hoa.html",
+          "label": "Đọc bài đầy đủ"
+        }
+      ]
+    },
+    {
+      "id": "xe-nang",
+      "title": "Cho thuê xe nâng",
+      "image": "https://xecauthienphu.com/images/z4879852689244_404bf6d3531d56d320c591a8be9f9094.jpg",
+      "body": "Dịch vụ cho thuê xe nâng giúp doanh nghiệp trên địa bàn tự tin vận chuyển các khối lượng hàng hoá lớn, cồng kềnh giảm thiểu được chi phí nhân sự và tiết kiệm được chi phí tối ưu đáng kể. THIÊN PHÚ chúng tôi có mặt ở đây để giúp doanh nghiệp bạn điều đó. Đây có phải là những khó khăn bạn đang gặp phải khi thuê xe nâng?",
+      "links": [
+        {
+          "href": "cho-thue-xe-nang.html",
+          "label": "Đọc bài đầy đủ"
+        }
+      ]
+    },
+    {
+      "id": "xe-nang-tphcm",
+      "title": "Cho thuê xe nâng tại TP.HCM",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-nang-tphcm/cho-thue-xe-nang-tphcm2.jpg",
+      "body": "Cho Thuê Xe Nâng Tại TPHCM – Dịch Vụ Uy Tín, Chuyên Nghiệp Tại Thiên Phú Tại TP.HCM, nhu cầu nâng hạ hàng hóa, máy móc công nghiệp, lên xuống container đang tăng mạnh do hoạt động sản xuất – logistics diễn ra sôi động. Để đảm bảo tiến độ, doanh nghiệp cần một đơn vị cho thuê xe nâng chuyên nghiệp, giá tốt, vận hành an toàn. CÔNG TY TNHH GIAO NHẬN VẬN TẢI THIÊN PHÚ tự hào là một trong những đơn vị uy tín hàng đầu trong lĩnh vực nâng chuyển – bốc dỡ – vận chuyển máy móc công nghiệp nặng , được nhiều nhà máy, kho bãi, xưởng sản xuất tại TPHCM tin dùng.",
+      "links": [
+        {
+          "href": "cho-thue-xe-nang-tai-tphcm.html",
+          "label": "Đọc bài đầy đủ"
+        }
+      ]
+    },
+    {
+      "id": "xe-cau-tphcm",
+      "title": "Cho thuê xe cẩu tại TP.HCM",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-cau-duc-hoa/cho-thue-xe-cau-duc-hoa-1_2.png",
+      "body": "Cho Thuê Xe Cẩu Tại TP.HCM – Thiên Phú | Nâng Hạ Máy Móc Chuyên Nghiệp Nhu cầu nâng hạ hàng hóa, thiết bị và máy móc công nghiệp tại TP.HCM ngày càng lớn, đặc biệt tại các khu công nghiệp, kho bãi và công trình xây dựng. Để đảm bảo an toàn, đúng tiến độ và tối ưu chi phí, doanh nghiệp cần một đơn vị cung cấp dịch vụ xe cẩu uy tín – kỹ thuật cao – phản hồi nhanh. CÔNG TY TNHH Giao Nhận Vận Tải Thiên Phú cung cấp dịch vụ cho thuê xe cẩu từ 1 tấn đến 200 tấn, phục vụ mọi nhu cầu từ nâng hạ đơn lẻ đến thi công trọn gói. Vớiđội ngũ nhân viên chuyên nghiệp, giàu kinh nghiệm cùng hệ thống xe cẩu, xe nâng, xe tải và thiết bị hỗ trợ như rùa đẩy máy, đội thủy lực, xe nâng tay…, chúng tôi đảm bảo xử lý an toàn các loại máy móc nặng, hàng hóa cồng kềnh và container. Thiên Phú cam kết mang đến giải pháp nâng hạ hiệu quả – an toàn – tiết kiệm, khảo sát nhanh, báo giá rõ ràng và có mặt kịp thời tại hiện trường. Đây là lựa chọn lý tưởng cho doanh nghiệp cần một đối tác chuyên nghiệp trong nâng chuyển và vận tải thiết bị công nghiệp.",
+      "links": [
+        {
+          "href": "cho-thue-xe-cau-tai-tphcm.html",
+          "label": "Đọc bài đầy đủ"
+        }
+      ]
+    },
+    {
+      "id": "duc-hoa",
+      "title": "Xe nâng, xe cẩu Đức Hòa",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-cau-duc-hoa/cho-thue-xe-cau-duc-hoa-1.png",
+      "body": "Dịch Vụ Cho Thuê Xe Cẩu Đức Hòa – Giải Pháp Nâng Hạ An Toàn, Nhanh Chóng Từ Thiên Phú Bạn đang muốn thuê xe cẩu tại Đức Hòa để nâng hạ máy móc, di dời hàng hóa hay phục vụ thi công công trình trong khu công nghiệp? Trong bối cảnh Đức Hòa – Long An đang bùng nổ các khu công nghiệp như Hải Sơn, Tân Đức, Thuận Đạo, Tân Đô, nhu cầu thuê xe cẩu linh hoạt – an toàn – đúng tải trọng ngày càng tăng mạnh. Các doanh nghiệp sản xuất, nhà thầu xây dựng hay đơn vị logistics đều cần một đối tác vận tải đủ năng lực, có sẵn đội xe tại địa bàn, để đảm bảo tiến độ thi công và tối ưu chi phí vận hành.",
+      "links": [
+        {
+          "href": "cho-thue-xe-nang-duc-hoa.html",
+          "label": "Bài xe nâng Đức Hòa"
+        },
+        {
+          "href": "cho-thue-xe-cau-duc-hoa.html",
+          "label": "Bài xe cẩu Đức Hòa"
+        }
+      ]
+    },
+    {
+      "id": "pallet",
+      "title": "Đóng pallet - kiện gỗ xuất khẩu",
+      "image": "https://xecauthienphu.com/images/nangcau/z4879905229851_404bf6d3531d56d320c591a8be9f9094.jpg",
+      "body": "Dịch vụ nhận đóng pallet gỗ theo yêu cầu trọn gói Pallet gỗ là một loại trong các loại pallet nói chung, hiểu nôm na là những tấm gỗ đóng bằng thanh gỗ, thanh nan trên – giữa – dưới, cây đố khuyết hoặc thẳng thường gọi là gỗ pallet. Các thanh gỗ liên kết chặt chẽ tạo nên kết cấu bền vững, bề mặt phẳng thuận lợi cho vận chuyển hàng hóa.",
+      "links": [
+        {
+          "href": "dong-pallet.html",
+          "label": "Đọc bài đầy đủ"
+        }
+      ]
+    }
   ],
   "photos": [
-    { "src": "https://xecauthienphu.com/images/anh/a1.jpg", "alt": "Xe cẩu Thiên Phú đang nâng hàng" },
-    { "src": "https://xecauthienphu.com/images/anh/a2.jpg", "alt": "Xe nâng trong xưởng" },
-    { "src": "https://xecauthienphu.com/images/anh/a3.jpg", "alt": "Di dời máy móc" },
-    { "src": "https://xecauthienphu.com/images/anh/a4.jpg", "alt": "Xe nâng rút container" },
-    { "src": "https://xecauthienphu.com/images/anh/a5.jpg", "alt": "Xe cẩu nâng thiết bị" },
-    { "src": "https://xecauthienphu.com/images/anh/a6.jpg", "alt": "Ảnh hoạt động 6" },
-    { "src": "https://xecauthienphu.com/images/anh/a7.jpg", "alt": "Ảnh hoạt động 7" },
-    { "src": "https://xecauthienphu.com/images/anh/a8.jpg", "alt": "Ảnh hoạt động 8" },
-    { "src": "https://xecauthienphu.com/images/anh/a9.jpg", "alt": "Ảnh hoạt động 9" }
+    {
+      "src": "https://xecauthienphu.com/images/anh/a1.jpg",
+      "alt": "Xe cẩu Thiên Phú đang nâng hàng"
+    },
+    {
+      "src": "https://xecauthienphu.com/images/anh/a2.jpg",
+      "alt": "Xe nâng trong xưởng"
+    },
+    {
+      "src": "https://xecauthienphu.com/images/anh/a3.jpg",
+      "alt": "Di dời máy móc"
+    },
+    {
+      "src": "https://xecauthienphu.com/images/anh/a4.jpg",
+      "alt": "Xe nâng rút container"
+    },
+    {
+      "src": "https://xecauthienphu.com/images/anh/a5.jpg",
+      "alt": "Xe cẩu nâng thiết bị"
+    },
+    {
+      "src": "https://xecauthienphu.com/images/anh/a6.jpg",
+      "alt": "Ảnh hoạt động 6"
+    },
+    {
+      "src": "https://xecauthienphu.com/images/anh/a7.jpg",
+      "alt": "Ảnh hoạt động 7"
+    },
+    {
+      "src": "https://xecauthienphu.com/images/anh/a8.jpg",
+      "alt": "Ảnh hoạt động 8"
+    },
+    {
+      "src": "https://xecauthienphu.com/images/anh/a9.jpg",
+      "alt": "Ảnh hoạt động 9"
+    }
   ],
   "news": [
-    { "title": "Dịch vụ nâng cẩu hàng hóa, máy móc", "excerpt": "Cho thuê xe nâng, xe cẩu, bốc dỡ hàng hóa, nâng cẩu và vận chuyển máy móc đến đúng vị trí lắp đặt.", "image": "https://xecauthienphu.com/images/nangcau/20230826_094021.jpg", "href": "dich-vu.html#nang-cau", "home": true, "bullets": ["Lên xuống hàng container", "Di dời thiết bị công nghiệp nặng", "Vận chuyển hàng siêu trường, siêu trọng", "Cẩu hàng lên cao, đưa máy xuống tầng hầm"] },
-    { "title": "Cho thuê xe nâng hàng tại TP.HCM và các tỉnh", "excerpt": "Xe nâng dầu và xe nâng điện, sức nâng từ 2 tấn đến 15 tấn.", "image": "https://xecauthienphu.com/images/xenang/20200222_080608.jpg", "href": "dich-vu.html#xe-nang", "home": true, "bullets": [] },
-    { "title": "Cho thuê xe cẩu hàng tại TP.HCM, Long An, Bình Dương, Đồng Nai", "excerpt": "Đội xe cẩu nhiều tải trọng, phục vụ 24/24 tất cả các ngày trong tuần.", "image": "https://xecauthienphu.com/images/xecau/z4859294781057_338ee9af0a239de1cff2a4a4bf1050ef.jpg", "href": "cho-thue-xe-cau.html", "home": true, "bullets": [] },
-    { "title": "Cho thuê xe cẩu phục vụ công trình xây dựng tại TP.HCM", "excerpt": "Cẩu tự hành, cẩu Kato, tài xế có chứng chỉ, thiết bị kiểm định.", "image": "https://xecauthienphu.com/media/k2/items/cache/item3949771778961858_S.jpg", "href": "cho-thue-xe-cau.html", "home": false, "bullets": [] },
-    { "title": "Cho thuê xe nâng tại TP.HCM", "excerpt": "Nâng hạ, bốc dỡ, lên xuống container, di dời máy móc. Hỗ trợ 24/7.", "image": "https://xecauthienphu.com/media/k2/items/cache/item1657921764393520_S.jpg", "href": "dich-vu.html#xe-nang-tphcm", "home": false, "bullets": [] },
-    { "title": "Thuê xe cẩu Long An, có mặt sau khoảng 30 phút", "excerpt": "Cẩu thùng và cẩu Kato, khảo sát không tính phí, phục vụ xuyên đêm.", "image": "https://xecauthienphu.com/images/tin-tuc/long-an/IMG_20230526_163134.jpg", "href": "dich-vu.html#duc-hoa", "home": false, "bullets": [] },
-    { "title": "Thuê xe nâng trong kho xưởng tại TP.HCM", "excerpt": "Nhiều tải trọng, có xe nhanh, báo giá rõ theo giờ, ngày, tháng.", "image": "https://xecauthienphu.com/images/tin-tuc/tphcm/z5347588161727_f2d8aa692caf294ed826b23e43986ae6.jpg", "href": "dich-vu.html#xe-nang", "home": false, "bullets": [] }
+    {
+      "title": "CHO THUÊ XE NÂNG TẠI TP.HCM",
+      "excerpt": "Cho Thuê Xe Nâng Tại TPHCM – Dịch Vụ Uy Tín, Chuyên Nghiệp Tại Thiên Phú",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-nang-tphcm/cho-thue-xe-nang-tphcm2.jpg",
+      "href": "cho-thue-xe-nang-tai-tphcm.html",
+      "home": true,
+      "bullets": [
+        "Tại TP.HCM, nhu cầu nâng hạ hàng hóa, máy móc công nghiệp, lên xuống container đang tăng mạnh do hoạt động sản xuất – logistics diễn ra sôi ",
+        "Thiên Phú sở hữu hệ thống xe nâng phong phú, đáp ứng tốt từ nhu cầu xuất nhập hàng tại kho bãi đến các dự án lắp đặt – di dời máy móc nặng. ",
+        "Xe nâng 2–3.5 tấn phục vụ bốc xếp pallet, hàng kiện, hàng đóng thùng tại kho."
+      ]
+    },
+    {
+      "title": "Cho Thuê Xe Nâng Hàng Tại TP.HCM Và Các Tỉnh Lân Cận",
+      "excerpt": "Trong hoạt động sản xuất, kinh doanh và vận hành kho bãi, việc nâng hạ, di chuyển hàng hóa có trọng lượng lớn là công việc diễn ra thường xuyên. Để tiết kiệm thời gian, nhân lực và tối ưu chi phí vận hành, nhiều doanh ng",
+      "image": "https://xecauthienphu.com/images/2.png",
+      "href": "cho-thue-xe-nang-hang.html",
+      "home": true,
+      "bullets": [
+        "Công ty TNHH Giao Nhận Vận Tải Thiên Phú cung cấp dịch vụ cho thuê xe nâng hàng phục vụ nhà máy, kho xưởng, khu công nghiệp, công trình và c",
+        "Cho thuê xe nâng hàng là dịch vụ cung cấp phương tiện chuyên dụng để hỗ trợ nâng, hạ, bốc xếp và di chuyển hàng hóa trong kho bãi, nhà máy h",
+        "Xe nâng sử dụng hệ thống càng nâng để nâng pallet, kiện hàng, nguyên vật liệu và nhiều loại thiết bị có trọng lượng lớn. Tùy theo đặc điểm h"
+      ]
+    },
+    {
+      "title": "CÔNG TY CHO THUÊ XE CẨU TẠI LONG AN - HỖ TRỢ TẬN NƠI 24/7",
+      "excerpt": "Hàng Trăm Tấn Máy Móc Chưa Hạ Thùng - Tiến Độ Công Trình Bị Trì Trệ Chỉ Vì Thiếu Xe Cẩu Cấp Tốc?",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-cau-duc-hoa/cho-thue-xe-cau-duc-hoa-4.png",
+      "href": "cong-ty-cho-thue-xe-cau-tai-long-an-ho-tro-tan-noi-247.html",
+      "home": true,
+      "bullets": [
+        "Bạn đang đứng ngồi không yên khi container hàng đã cập bãi tại KCN Long An nhưng đơn vị xe cẩu cũ lại \"bịt đầu mối\", báo hoãn lịch? Bạn lo s",
+        "Đừng để một sai lầm nhỏ trong khâu vận chuyển làm sụp đổ uy tín doanh nghiệp của bạn với đối tác! Mọi lo lắng của bạn sẽ được giải quyết tri",
+        "Khám phá ngay bảng giá và quy trình bốc xếp chuẩn kết cấu của Thiên Phú dưới đây!"
+      ]
+    },
+    {
+      "title": "DỊCH VỤ CHO THUÊ THUÊ XE CẨU TẠI LONG AN UY TÍN - CHUYÊN NGHIỆP",
+      "excerpt": "Dịch Vụ Cho Thuê Xe Cẩu Long An Uy Tín, Chuyên Nghiệp - Xe Cẩu Thiên Phú",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-cau-duc-hoa/cho-thue-xe-cau-duc-hoa-4.png",
+      "href": "dich-vu-cho-thue-xe-cau-long-an-uy-tin-chuyen-nghiep.html",
+      "home": false,
+      "bullets": [
+        "Bạn đang tìm kiếm một đơn vị cho thuê xe cẩu tại Long An uy tín để nâng hạ hàng hóa, thiết bị máy móc nặng, hay phục vụ cho các công trình x",
+        "Xe cẩu Thiên Phú tự hào là đối tác chiến lược hàng đầu, chuyên cung cấp dịch vụ cho thuê xe cẩu bốc xếp, nâng hạ và vận chuyển hàng hóa trọn",
+        "Long An là cửa ngõ giao thương huyết mạch giữa TP.HCM và các tỉnh Miền Tây Nam Bộ, nơi tập trung hàng loạt các khu công nghiệp (KCN) lớn như"
+      ]
+    },
+    {
+      "title": "CHO THUÊ XE CẨU PHỤC VỤ CÔNG TRÌNH XÂY DỰNG TẠI TP.HCM",
+      "excerpt": "Cho Thuê Xe Cẩu Phục Vụ Công Trình Tại TP.HCM – Uy Tín, Giá Tốt",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-cau-duc-hoa/cho-thue-xe-cau-duc-hoa-1.png",
+      "href": "cho-thue-xe-cau-phuc-vu-cong-trinh-xay-dung-tai-tp-hcm.html",
+      "home": false,
+      "bullets": [
+        "TP.HCM là trung tâm kinh tế với hàng loạt công trình xây dựng hạ tầng, nhà xưởng và tòa nhà cao tầng mọc lên liên tục. Để đảm bảo tiến độ th",
+        "Trong lĩnh vực xây dựng hiện đại, xe cẩu đóng vai trò là \"cánh tay lực sĩ\" không thể thay thế. Thiết bị này giúp giải quyết các công việc nặ",
+        "Nâng hạ vật liệu nặng: Di chuyển sắt thép, xi măng, cọc bê tông khối lượng lớn từ xe vận chuyển vào khu vực tập kết hoặc bãi thi công."
+      ]
+    },
+    {
+      "title": "CHO THUÊ XE CẨU TỰ HÀNH TẠI TP. HCM",
+      "excerpt": "Cho Thuê Xe Cẩu Tự Hành Tại TP.HCM - Giải Pháp Nâng Hạ & Vận Chuyển Linh Hoạt Cho Mọi Công Trình",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-cau-duc-hoa/cho-thue-xe-cau-duc-hoa-1_2.png",
+      "href": "cho-thue-xe-cau-tu-hanh-tai-tp-hcm.html",
+      "home": false,
+      "bullets": [
+        "Xe Cẩu Thiên Phú chuyên cho thuê xe cẩu tự hành tại TP.HCM phục vụ nâng hạ hàng hóa, di dời máy móc, vận chuyển vật tư và hỗ trợ thi công cô",
+        "Xe cẩu tự hành là dòng xe tải được tích hợp cần cẩu phía sau cabin hoặc phía cuối thùng xe. Loại phương tiện này vừa có khả năng nâng hạ hàn",
+        "Thay vì phải thuê riêng xe tải và xe cẩu, xe cẩu tự hành giúp thực hiện cả hai công việc trên cùng một thiết bị. Điều này giúp giảm thời gia"
+      ]
+    },
+    {
+      "title": "DỊCH VỤ THUÊ XE NÂNG CHO NHÀ MÁY & KCN LONG AN",
+      "excerpt": "Dịch Vụ Thuê Xe Nâng Cho Nhà Máy & KCN Long An Giá Tốt - Hỗ Trợ Nhanh 24/7",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-nang-duc-hoa/cho-thue-xe-nang-duc-hoa-4.png",
+      "href": "dich-vu-thua-xe-nang-cho-nha-may-kcn-long-an.html",
+      "home": false,
+      "bullets": [
+        "Bạn đang cần thuê xe nâng để bốc xếp hàng hóa, di chuyển pallet, nâng hạ máy móc hoặc phục vụ hoạt động sản xuất tại Long An? Xe Cẩu Thiên P",
+        "Long An hiện là một trong những khu vực phát triển công nghiệp mạnh tại miền Nam với nhiều cụm công nghiệp, nhà máy sản xuất và kho vận quy ",
+        "Đối với nhiều doanh nghiệp, việc thuê xe nâng giúp tiết kiệm đáng kể chi phí đầu tư ban đầu so với việc mua xe mới. Đồng thời doanh nghiệp c"
+      ]
+    },
+    {
+      "title": "THUÊ XE NÂNG HÀNG TẠI LONG AN",
+      "excerpt": "Cho Thuê Xe Nâng Hàng Tại Long An – Giá Tốt, Uy Tín, Có Mặt Ngay",
+      "image": "https://xecauthienphu.com/images/dich-vu/thue-xe-nang-hang-tai-long-an/thue-xe-nang-hang-tai-long-an.png",
+      "href": "thue-xe-nang-hang-tai-long-an.html",
+      "home": false,
+      "bullets": [
+        "Nhu cầu nâng hạ, vận chuyển hàng hóa, máy móc thiết bị tại Long An đang tăng cao. Để đảm bảo tiến độ công việc, các doanh nghiệp cần một đối",
+        "Xe Cẩu Thiên Phú sở hữu hệ thống xe nâng đa dạng chủng loại và tải trọng, đáp ứng chính xác mọi yêu cầu kỹ thuật của từng dự án tại Long An:",
+        "Đặc điểm: Công suất lớn, động cơ bền bỉ và khả năng chịu tải cao."
+      ]
+    },
+    {
+      "title": "DỊCH VỤ THUÊ XE NÂNG HÀNG TRONG KHO XƯỞNG TẠI TP.HCM",
+      "excerpt": "Bạn cần thuê xe nâng hàng trong kho xưởng tại TP.HCM để xử lý hàng hóa nhanh nhưng còn phân vân nên chọn loại xe nào, chi phí ra sao và đơn vị nào có thể điều xe ngay? Trong môi trường kho kín, lối đi hẹp và tải trọng lớ",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-nang-hang/1.png",
+      "href": "dich-vu-thue-xe-nang-hang-trong-kho-xuong-tai-tphcm.html",
+      "home": false,
+      "bullets": [
+        "Kho xưởng thường có lối đi hẹp, kệ hàng cao và mật độ lưu trữ lớn. Đòi hỏi xe nâng phải có kích thước gọn, bán kính quay nhỏ và khả năng nân",
+        "Xe nâng dùng trong kho cần đảm bảo độ êm, ít khí thải (ưu tiên xe điện), hệ thống phanh và điều khiển chính xác. Người vận hành phải có kinh",
+        "Xe nâng kho xưởng thiên về độ linh hoạt, nhỏ gọn và vận hành trong môi trường kín. Ngược lại, xe nâng công trình thường có công suất lớn, dù"
+      ]
+    },
+    {
+      "title": "DỊCH VỤ CHO THUÊ XE NÂNG TP.HCM CHUYÊN NGHIỆP – ĐA DẠNG TẢI TRỌNG",
+      "excerpt": "Bạn đang cần thuê xe nâng tại TP.HCM nhưng chưa biết chọn đơn vị nào vừa có xe nhanh – giá hợp lý – làm việc chuyên nghiệp? Với đặc thù công việc cần xử lý hàng hóa, di dời máy móc hoặc thi công gấp, việc lựa chọn một dị",
+      "image": "https://xecauthienphu.com/images/dich-vu/cho-thue-xe-nang-tphcm/1.png",
+      "href": "dich-vu-cho-thue-xe-nang-tphcm-chuyen-nghiep-da-dang-tai-trong.html",
+      "home": false,
+      "bullets": [
+        "Liên hệ ngay 0908.685.815 để được tư vấn và điều xe nhanh chóng, không làm gián đoạn công việc của bạn.",
+        "Bảng giá dưới đây áp dụng cho các dịch vụ nâng cẩu hàng hóa , di dời máy móc, lên xuống container, bốc dỡ kho bãi và thi công công trình. Mứ",
+        "BẢNG GIÁ THUÊ XE NÂNG THEO TẢI TRỌNG VÀ THỜI GIAN"
+      ]
+    },
+    {
+      "title": "CHO THUÊ XE NÂNG NGƯỜI TẠI LONG AN",
+      "excerpt": "Cho Thuê Xe Nâng Người Long An – Có Xe Ngay | Thiên Phú",
+      "image": "https://xecauthienphu.com/images/dich-vu/xe-nang-nguoi-tphcm/xe-nang-nguoi3.png",
+      "href": "cho-thue-xe-nang-nguoi-tai-long-an.html",
+      "home": false,
+      "bullets": [
+        "Tại Long An, nhu cầu thi công nhà xưởng, khu công nghiệp, kho vận và công trình dân dụng ngày càng tăng. Việc làm việc trên cao nếu vẫn sử d",
+        "Chỉ cần cung cấp thông tin công việc, Thiên Phú sẽ tư vấn đúng loại xe và điều phối tận nơi trong thời gian ngắn.",
+        "Để giúp khách hàng dễ dàng dự trù ngân sách, Nâng Cẩu Thiên Phú cung cấp bảng giá tham khảo cho từng dòng xe nâng người. Mức giá có thể linh"
+      ]
+    },
+    {
+      "title": "CHO THUÊ XE NÂNG NGƯỜI TẠI TP.HCM",
+      "excerpt": "Cho Thuê Xe Nâng Người TP.HCM | Giá Tốt - Nâng Cẩu Thiên Phú",
+      "image": "https://xecauthienphu.com/images/dich-vu/xe-nang-nguoi-tphcm/xe-nang-cau-6.jpg",
+      "href": "cho-thue-xe-nang-nguoi-tai-tphcm.html",
+      "home": false,
+      "bullets": [
+        "Bạn đang cần làm việc trên cao nhưng không muốn dựng giàn giáo rườm rà, tốn thời gian và tiềm ẩn rủi ro? Bạn cần một giải pháp an toàn – nha",
+        "Chỉ cần gọi – có xe ngay – hỗ trợ tận công trình.",
+        ">>>XEM NGAY: dịch vụ Cho thuê xe nâng tại TP. HCM để lựa chọn thiết bị phù hợp với từng hạng mục cụ thể."
+      ]
+    },
+    {
+      "title": "RÚT CONT MÁY TẠI LONG AN",
+      "excerpt": "Rút Cont Máy Tại Long An - Giải Pháp An Toàn Cho Máy Công Nghiệp Nặng",
+      "image": "https://xecauthienphu.com/images/dich-vu/rut-cont-may-tphcm/rut-cont-may-4.png",
+      "href": "rut-cont-may-tai-long-an.html",
+      "home": false,
+      "bullets": [
+        "Hoạt động nhập khẩu máy móc công nghiệp về Long An ngày càng tăng, kéo theo nhu cầu rút container máy tại kho bãi, nhà xưởng và khu công ngh",
+        "Rút cont máy là quá trình đưa máy móc, thiết bị công nghiệp ra khỏi container 20 feet hoặc 40 feet sau khi vận chuyển từ cảng hoặc kho trung",
+        "Nếu thực hiện sai phương pháp, rút cont máy có thể gây ra:"
+      ]
+    },
+    {
+      "title": "CẨU MÁY LÊN LẦU TẠI TP.HCM GIÁ RẺ - TRỌN GÓI",
+      "excerpt": "Cẩu Máy Lên Lầu Tại TP.HCM Giá Rẻ – Trọn Gói Chuyên Nghiệp",
+      "image": "https://xecauthienphu.com/images/cau-may-len-cau-long-an/avt-cau-may-len-lau.jpg",
+      "href": "cau-may-len-lau-tphcm.html",
+      "home": false,
+      "bullets": [
+        "Cẩu máy lên lầu tại TP.HCM là giải pháp an toàn, nhanh chóng dành cho các doanh nghiệp, nhà xưởng, công trình cần đưa máy móc công nghiệp, t",
+        "Khi doanh nghiệp cần đưa máy móc công nghiệp, thiết bị nặng lên tầng cao của nhà xưởng, tòa nhà, hoặc sân thượng — việc sử dụng thang máy tả",
+        "Với kinh nghiệm thực tế tại hàng trăm công trình lớn nhỏ khắp TP.HCM và khu vực phía Nam, Thiên Phú sở hữu đầy đủ trang thiết bị và năng lực"
+      ]
+    },
+    {
+      "title": "VẬN CHUYỂN MÁY TẠI TP.HCM",
+      "excerpt": "Vận Chuyển Máy TP.HCM Chuyên Nghiệp – Dịch Vụ Từ Công Ty TNHH Giao Nhận Vận Tải Thiên Phú",
+      "image": "https://xecauthienphu.com/images/cau-may-len-cau-long-an/cau-may-len-lau-long-an1.jpg",
+      "href": "van-chuyen-may-tai-tphcm.html",
+      "home": false,
+      "bullets": [
+        "Vận chuyển máy TP.HCM là dịch vụ chuyên biệt giúp doanh nghiệp, xí nghiệp di dời máy móc công nghiệp nặng, thiết bị sản xuất, máy CNC, máy s",
+        "Dịch vụ vận chuyển máy móc công nghiệp không chỉ dành riêng cho các dự án lớn mà còn rất cần thiết trong nhiều tình huống thực tế sau:",
+        "Khi doanh nghiệp chuyển địa điểm sản xuất, cần tháo dỡ và vận chuyển hệ thống máy móc cồng kềnh từ nhà xưởng cũ sang nơi mới, dịch vụ vận ch"
+      ]
+    },
+    {
+      "title": "CHO THUÊ XE NÂNG",
+      "excerpt": "Cho thuê xe nâng hàng tại tphcm, long an. xe đẹp, tái xế chuyện nghiệp.",
+      "image": "https://xecauthienphu.com/images/tin-tuc/tphcm/20230728_183821_1.jpg",
+      "href": "cho-thue-xe-nang-98459500.html",
+      "home": false,
+      "bullets": []
+    },
+    {
+      "title": "NÂU CẨ HÀNG TẠI TPHCM",
+      "excerpt": "Nâng cẩu hàng chuyên nghệp tại TPHCM. hoàn thành công việc sau một ngày nắng nóng.",
+      "image": "https://xecauthienphu.com/images/tin-tuc/tphcm/z5347588179385_af836adad6b09e5a5081979dc9dd614d.jpg",
+      "href": "nau-ca-hang-tai-tphcm.html",
+      "home": false,
+      "bullets": []
+    },
+    {
+      "title": "Nâng hạ máy móc tại Long An",
+      "excerpt": "Nâng hạ máy móc tại Long An",
+      "image": "https://xecauthienphu.com/images/tin-tuc/long-an/IMG_20230518_161621.jpg",
+      "href": "nang-ha-may-moc-tai-long-an.html",
+      "home": false,
+      "bullets": []
+    }
   ],
   "about": {
     "image": "https://xecauthienphu.com/images/anh/a1.jpg",
