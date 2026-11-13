@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DỊCH VỤ CHO THUÊ XE NÂNG TP.HCM CHUYÊN NGHIỆP – ĐA DẠNG TẢI TRỌNG - Nâng Cẩu Thiên Phú</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=19">
 </head>
 <body>
   <div class="loader" id="loader" role="status">
@@ -14,14 +14,28 @@
     <p class="loader-wait">Đang tải, vui lòng đợi ...</p>
   </div>
   <script>
-    document.documentElement.classList.add("is-loading");
-    setTimeout(function () {
-      var el = document.getElementById("loader");
-      document.documentElement.classList.remove("is-loading");
-      if (!el) return;
-      el.classList.add("off");
-      setTimeout(function () { el.remove(); }, 500);
-    }, 3000);
+    (function () {
+      var root = document.documentElement;
+      function play() {
+        var el = document.getElementById("loader");
+        if (!el) return;
+        el.classList.remove("off");
+        root.classList.add("is-loading");
+        clearTimeout(play.timer);
+        play.timer = setTimeout(function () {
+          root.classList.remove("is-loading");
+          el.classList.add("off");
+        }, 3000);
+      }
+      if (document.prerendering) {
+        document.addEventListener("prerenderingchange", play, { once: true });
+      } else {
+        play();
+      }
+      window.addEventListener("pageshow", function (e) {
+        if (e.persisted) play();
+      });
+    })();
   </script>
   <div class="ticker"><div class="ticker-track"><p>» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p><p aria-hidden="true">» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p></div></div>
   <header class="top">
@@ -80,76 +94,76 @@
 <p><strong>  </strong> </p>
 
 
-
-
-
-<strong>Loại xe nâng </strong> 
-<strong>Tải trọng </strong> 
-<strong>Giá theo giờ (&gt;2h) </strong> 
-<strong>Giá theo ca (4h) </strong> 
-<strong>Giá theo ngày (8h) </strong> 
-<strong>Ghi chú </strong> 
-
-
-
-
-<strong>Xe nâng dầu</strong>
-1.5 – 2 tấn
-300.000 – 350.000
-900.000 – 1.100.000
-1.500.000 – 1.800.000
-Kho hàng, pallet, hàng nhẹ
-
-
-<strong>Xe nâng dầu</strong>
-2.5 – 3.5 tấn
-350.000 – 400.000
-1.100.000 – 1.400.000
-1.800.000 – 2.200.000
-Lên xuống xe tải, xưởng
-
-
-<strong>Xe nâng dầu</strong>
-5 tấn
-400.000 – 500.000
-1.500.000 – 1.800.000
-2.300.000 – 2.800.000
-Máy móc, hàng nặng
-
-
-<strong>Xe nâng dầu</strong>
-7 tấn
-600.000 – 800.000
-2.200.000 – 2.800.000
-3.500.000 – 4.200.000
-Cần mặt bằng rộng
-
-
-<strong>Xe nâng dầu</strong>
-10 tấn
-1.000.000 – 1.200.000
-4.000.000 – 5.000.000
-6.000.000 – 7.000.000
-Công nghiệp lớn
-
-
-<strong>Xe nâng 12 – 15 tấn</strong>
-Theo yêu cầu
-Liên hệ
-Liên hệ
-Liên hệ
-Di dời nhà máy, CNC
-
-
-<strong>Xe nâng điện</strong>
-1 – 2.5 tấn
-250.000 – 300.000
-800.000 – 1.000.000
-1.500.000 – 1.900.000
-Kho kín, không khí thải
-
-
-
+<table>
+<thead>
+<tr>
+<td><strong>Loại xe nâng </strong> </td>
+<td><strong>Tải trọng </strong> </td>
+<td><strong>Giá theo giờ (&gt;2h) </strong> </td>
+<td><strong>Giá theo ca (4h) </strong> </td>
+<td><strong>Giá theo ngày (8h) </strong> </td>
+<td><strong>Ghi chú </strong> </td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Xe nâng dầu</strong></td>
+<td>1.5 – 2 tấn</td>
+<td>300.000 – 350.000</td>
+<td>900.000 – 1.100.000</td>
+<td>1.500.000 – 1.800.000</td>
+<td>Kho hàng, pallet, hàng nhẹ</td>
+</tr>
+<tr>
+<td><strong>Xe nâng dầu</strong></td>
+<td>2.5 – 3.5 tấn</td>
+<td>350.000 – 400.000</td>
+<td>1.100.000 – 1.400.000</td>
+<td>1.800.000 – 2.200.000</td>
+<td>Lên xuống xe tải, xưởng</td>
+</tr>
+<tr>
+<td><strong>Xe nâng dầu</strong></td>
+<td>5 tấn</td>
+<td>400.000 – 500.000</td>
+<td>1.500.000 – 1.800.000</td>
+<td>2.300.000 – 2.800.000</td>
+<td>Máy móc, hàng nặng</td>
+</tr>
+<tr>
+<td><strong>Xe nâng dầu</strong></td>
+<td>7 tấn</td>
+<td>600.000 – 800.000</td>
+<td>2.200.000 – 2.800.000</td>
+<td>3.500.000 – 4.200.000</td>
+<td>Cần mặt bằng rộng</td>
+</tr>
+<tr>
+<td><strong>Xe nâng dầu</strong></td>
+<td>10 tấn</td>
+<td>1.000.000 – 1.200.000</td>
+<td>4.000.000 – 5.000.000</td>
+<td>6.000.000 – 7.000.000</td>
+<td>Công nghiệp lớn</td>
+</tr>
+<tr>
+<td><strong>Xe nâng 12 – 15 tấn</strong></td>
+<td>Theo yêu cầu</td>
+<td>Liên hệ</td>
+<td>Liên hệ</td>
+<td>Liên hệ</td>
+<td>Di dời nhà máy, CNC</td>
+</tr>
+<tr>
+<td><strong>Xe nâng điện</strong></td>
+<td>1 – 2.5 tấn</td>
+<td>250.000 – 300.000</td>
+<td>800.000 – 1.000.000</td>
+<td>1.500.000 – 1.900.000</td>
+<td>Kho kín, không khí thải</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -237,14 +251,14 @@ Kho kín, không khí thải
 <li>Email: xenangthienphu@gmail.com </li>
 </ul>
     
-  </div></main>
+    </div></main>
   <footer class="footer"><div class="wrap"><p>Hotline 0908.685.815 - 0938.766.815</p></div></footer>
-  <div class="sub">Nâng Cẩu Thiên Phú</div>
+  <div class="sub">Website được thiết kế bởi <a href="https://butphamarketing.com" target="_blank" rel="noopener">butphamarketing.com</a></div>
   <div class="float">
     <a href="https://zalo.me/0908685815"><img src="https://xecauthienphu.com/images/zalo.png" alt="Zalo"></a>
     <a href="tel:0908685815"><img src="https://xecauthienphu.com/images/call1.png" alt="Gọi"></a>
   </div>
   <script src="js/site.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>

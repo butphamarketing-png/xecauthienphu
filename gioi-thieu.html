@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Giới thiệu - Nâng Cẩu Thiên Phú</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=19">
 </head>
 <body>
   <div class="loader" id="loader" role="status">
@@ -14,14 +14,28 @@
     <p class="loader-wait">Đang tải, vui lòng đợi ...</p>
   </div>
   <script>
-    document.documentElement.classList.add("is-loading");
-    setTimeout(function () {
-      var el = document.getElementById("loader");
-      document.documentElement.classList.remove("is-loading");
-      if (!el) return;
-      el.classList.add("off");
-      setTimeout(function () { el.remove(); }, 500);
-    }, 3000);
+    (function () {
+      var root = document.documentElement;
+      function play() {
+        var el = document.getElementById("loader");
+        if (!el) return;
+        el.classList.remove("off");
+        root.classList.add("is-loading");
+        clearTimeout(play.timer);
+        play.timer = setTimeout(function () {
+          root.classList.remove("is-loading");
+          el.classList.add("off");
+        }, 3000);
+      }
+      if (document.prerendering) {
+        document.addEventListener("prerenderingchange", play, { once: true });
+      } else {
+        play();
+      }
+      window.addEventListener("pageshow", function (e) {
+        if (e.persisted) play();
+      });
+    })();
   </script>
   <div class="ticker"><div class="ticker-track"><p>» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p><p aria-hidden="true">» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p></div></div>
   <header class="top">
@@ -59,17 +73,15 @@
   <main class="page"><div class="wrap article">
     <h1>Giới thiệu</h1>
     <img class="wide" src="https://xecauthienphu.com/images/anh/a1.jpg" alt="Đội xe Thiên Phú">
-    <p>Trước hết, ban lãnh đạo cùng toàn thể nhân viên Công ty xin cảm ơn Quý công ty đã tín nhiệm và hợp tác. Công ty TNHH Giao nhận Vận tải Thiên Phú hoạt động trong lĩnh vực nâng chuyển, bốc dỡ hàng hóa, máy móc công nghiệp nặng, lên xuống hàng container, cho thuê xe nâng và xe cẩu.</p>
-    <p>Trang thiết bị gồm xe nâng, xe tải, xe cẩu các loại, xe nâng tay, đội thủy lực và rùa đẩy máy, phục vụ vận chuyển và nâng hạ máy móc thiết bị công nghiệp.</p>
-    <p>Khu vực phục vụ: TP.HCM, Long An, Bình Dương, Đồng Nai và các tỉnh lân cận. Hotline 0908.685.815 - 0938.766.815.</p>
+    <p>Trước hết, ban lãnh đạo cùng toàn thể nhân viên Công ty xin chân thành gửi lời cảm ơn đến Quý Công ty đã tín nhiệm và hợp tác với Công ty chúng tôi trong thời gian qua. Công Ty hoạt động trong lĩnh vực nâng chuyển, bốc dỡ hàng hóa , máy móc công nghiệp nặng, lên xuống hàng container, cho thuê xe nâng, xe cẩu, với đội ngũ nhân viên nhiệt tình, nhiều kinh nghiệm và máy móc chuyên dụng…. Với trang thiết bị xe nâng, xe tải, xe cẩu các loại, cộng với các loại trang thiết bị, dụng cụ đồ nghề chuyên dụng như xe nâng tay, đội thủy lực, rùa đẩy máy,… phục vụ cho việc vận chuyển, nâng hạ máy móc thiết bị công nghiệp …</p>
   </div></main>
   <footer class="footer"><div class="wrap"><p>CÔNG TY TNHH GIAO NHẬN VẬN TẢI THIÊN PHÚ — 354/16/6/12C QL1A, P. Bình Hưng Hòa B, Q. Bình Tân, TP.HCM</p></div></footer>
-  <div class="sub">Nâng Cẩu Thiên Phú</div>
+  <div class="sub">Website được thiết kế bởi <a href="https://butphamarketing.com" target="_blank" rel="noopener">butphamarketing.com</a></div>
   <div class="float">
     <a href="https://zalo.me/0908685815"><img src="https://xecauthienphu.com/images/zalo.png" alt="Zalo"></a>
     <a href="tel:0908685815"><img src="https://xecauthienphu.com/images/call1.png" alt="Gọi"></a>
   </div>
   <script src="js/site.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>

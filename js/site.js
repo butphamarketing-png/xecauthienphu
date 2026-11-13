@@ -48,7 +48,25 @@ function applySite(site) {
     if ((a.getAttribute("href") || "").indexOf("zalo") !== -1) a.href = "https://zalo.me/" + digits(company.zalo || phone);
     if ((a.getAttribute("href") || "").indexOf("tel:") === 0) a.href = "tel:" + tel;
   });
-  setText(document.querySelector(".sub"), company.tagline);
+  var sub = document.querySelector(".sub");
+  if (sub) {
+    var credit = company.tagline || "";
+    var domain = "butphamarketing.com";
+    var at = credit.indexOf(domain);
+    sub.textContent = "";
+    if (at < 0) {
+      sub.textContent = credit;
+    } else {
+      sub.appendChild(document.createTextNode(credit.slice(0, at)));
+      var creditLink = document.createElement("a");
+      creditLink.href = "https://" + domain;
+      creditLink.target = "_blank";
+      creditLink.rel = "noopener";
+      creditLink.textContent = domain;
+      sub.appendChild(creditLink);
+      sub.appendChild(document.createTextNode(credit.slice(at + domain.length)));
+    }
+  }
 
   var introImg = document.querySelector(".intro-card img");
   if (introImg && home.introImage) {

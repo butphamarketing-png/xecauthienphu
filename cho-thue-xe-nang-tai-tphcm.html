@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CHO THUÊ XE NÂNG TẠI TP.HCM - Nâng Cẩu Thiên Phú</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=19">
 </head>
 <body>
   <div class="loader" id="loader" role="status">
@@ -14,14 +14,28 @@
     <p class="loader-wait">Đang tải, vui lòng đợi ...</p>
   </div>
   <script>
-    document.documentElement.classList.add("is-loading");
-    setTimeout(function () {
-      var el = document.getElementById("loader");
-      document.documentElement.classList.remove("is-loading");
-      if (!el) return;
-      el.classList.add("off");
-      setTimeout(function () { el.remove(); }, 500);
-    }, 3000);
+    (function () {
+      var root = document.documentElement;
+      function play() {
+        var el = document.getElementById("loader");
+        if (!el) return;
+        el.classList.remove("off");
+        root.classList.add("is-loading");
+        clearTimeout(play.timer);
+        play.timer = setTimeout(function () {
+          root.classList.remove("is-loading");
+          el.classList.add("off");
+        }, 3000);
+      }
+      if (document.prerendering) {
+        document.addEventListener("prerenderingchange", play, { once: true });
+      } else {
+        play();
+      }
+      window.addEventListener("pageshow", function (e) {
+        if (e.persisted) play();
+      });
+    })();
   </script>
   <div class="ticker"><div class="ticker-track"><p>» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p><p aria-hidden="true">» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p></div></div>
   <header class="top">
@@ -188,106 +202,106 @@
 <h2><strong>Bảng Giá Thuê Xe Nâng Tại TPHCM – Thiên Phú</strong></h2>
 <p>Bảng giá áp dụng cho toàn bộ dịch vụ nâng hạ hàng hóa – máy móc – lên xuống container – di dời thiết bị – bốc dỡ tại kho bãi – công trình. Giá thực tế còn phụ thuộc vào mặt bằng, tải trọng và thời gian triển khai. Thiên Phú sẽ khảo sát và gửi báo giá chuẩn, cam kết không phát sinh.</p>
 <p><strong>BẢNG GIÁ CHUNG CHO TẤT CẢ CÁC LOẠI XE NÂNG – THEO CA, NGÀY, GIỜ</strong></p>
-
-
-
-<strong>LOẠI XE NÂNG</strong>
-<strong>TẢI TRỌNG</strong>
-<strong>GIÁ THEO GIỜ (&gt;2h)</strong>
-<strong>GIÁ THEO CA (4h)</strong>
-<strong>GIÁ THEO NGÀY (8h)</strong>
-<strong>GHI CHÚ THỰC TẾ</strong>
-
-
-Xe nâng dầu
-1.5 – 2 tấn
-300.000 – 350.000 VNĐ
-900.000 – 1.100.000 VNĐ
-1.500.000 – 1.800.000 VNĐ
-Phù hợp kho hàng, pallet, kiện nhỏ
-
-
-Xe nâng dầu
-2.5 – 3.5 tấn
-350.000 – 400.000 VNĐ
-1.100.000 – 1.400.000 VNĐ
-1.800.000 – 2.200.000 VNĐ
-Lên xuống xe tải, xưởng gỗ – cơ khí
-
-
-Xe nâng dầu
-5 tấn
-400.000 – 500.000 VNĐ
-1.500.000 – 1.800.000 VNĐ
-2.300.000 – 2.800.000 VNĐ
-Nâng máy 500–1500 kg, hàng nặng
-
-
-Xe nâng dầu
-7 tấn
-600.000 – 800.000 VNĐ
-2.200.000 – 2.800.000 VNĐ
-3.500.000 – 4.200.000 VNĐ
-Cần nền chắc, mặt bằng rộng
-
-
-Xe nâng dầu
-10 tấn
-1.000.000 – 1.200.000 VNĐ
-4.000.000 – 5.000.000 VNĐ
-6.000.000 – 7.000.000 VNĐ
-Máy móc công nghiệp lớn
-
-
-Xe nâng 12 – 15 tấn
-Theo yêu cầu
-Liên hệ
-Liên hệ
-Liên hệ
-Dùng trong di dời nhà máy, lắp CNC
-
-
-Xe nâng điện
-1 – 2.5 tấn
-250.000 – 300.000 VNĐ
-800.000 – 1.000.000 VNĐ
-1.500.000 – 1.900.000 VNĐ
-Không khói, phù hợp kho lạnh – xưởng
-
-
-Xe nâng tay / bán tự động
-_
-_
-250.000 – 350.000 VNĐ
-_
-Thường thuê kèm hỗ trợ bốc dỡ
-
-
-Dịch vụ nâng hạ container
-Tùy loại hàng
-_
-1.500.000 – 4.000.000 VNĐ
-_
-Máy móc, kiện hàng, pallet
-
-
-Dịch vụ di dời – lắp đặt máy móc
-1 – 20 tấn
-Báo theo khảo sát
-Báo theo hạng mục
-Báo theo dự án
-Thường dùng kèm rùa – đội thủy lực
-
-
-Kỹ thuật viên vận hành
-_
-150.000 – 250.000 VNĐ
-500.000 – 800.000 VNĐ
-_
-Bắt buộc đối với xe nâng tải lớn
-
-
-
+<table>
+<tbody>
+<tr>
+<td><strong>LOẠI XE NÂNG</strong></td>
+<td><strong>TẢI TRỌNG</strong></td>
+<td><strong>GIÁ THEO GIỜ (&gt;2h)</strong></td>
+<td><strong>GIÁ THEO CA (4h)</strong></td>
+<td><strong>GIÁ THEO NGÀY (8h)</strong></td>
+<td><strong>GHI CHÚ THỰC TẾ</strong></td>
+</tr>
+<tr>
+<td>Xe nâng dầu</td>
+<td>1.5 – 2 tấn</td>
+<td>300.000 – 350.000 VNĐ</td>
+<td>900.000 – 1.100.000 VNĐ</td>
+<td>1.500.000 – 1.800.000 VNĐ</td>
+<td>Phù hợp kho hàng, pallet, kiện nhỏ</td>
+</tr>
+<tr>
+<td>Xe nâng dầu</td>
+<td>2.5 – 3.5 tấn</td>
+<td>350.000 – 400.000 VNĐ</td>
+<td>1.100.000 – 1.400.000 VNĐ</td>
+<td>1.800.000 – 2.200.000 VNĐ</td>
+<td>Lên xuống xe tải, xưởng gỗ – cơ khí</td>
+</tr>
+<tr>
+<td>Xe nâng dầu</td>
+<td>5 tấn</td>
+<td>400.000 – 500.000 VNĐ</td>
+<td>1.500.000 – 1.800.000 VNĐ</td>
+<td>2.300.000 – 2.800.000 VNĐ</td>
+<td>Nâng máy 500–1500 kg, hàng nặng</td>
+</tr>
+<tr>
+<td>Xe nâng dầu</td>
+<td>7 tấn</td>
+<td>600.000 – 800.000 VNĐ</td>
+<td>2.200.000 – 2.800.000 VNĐ</td>
+<td>3.500.000 – 4.200.000 VNĐ</td>
+<td>Cần nền chắc, mặt bằng rộng</td>
+</tr>
+<tr>
+<td>Xe nâng dầu</td>
+<td>10 tấn</td>
+<td>1.000.000 – 1.200.000 VNĐ</td>
+<td>4.000.000 – 5.000.000 VNĐ</td>
+<td>6.000.000 – 7.000.000 VNĐ</td>
+<td>Máy móc công nghiệp lớn</td>
+</tr>
+<tr>
+<td>Xe nâng 12 – 15 tấn</td>
+<td>Theo yêu cầu</td>
+<td>Liên hệ</td>
+<td>Liên hệ</td>
+<td>Liên hệ</td>
+<td>Dùng trong di dời nhà máy, lắp CNC</td>
+</tr>
+<tr>
+<td>Xe nâng điện</td>
+<td>1 – 2.5 tấn</td>
+<td>250.000 – 300.000 VNĐ</td>
+<td>800.000 – 1.000.000 VNĐ</td>
+<td>1.500.000 – 1.900.000 VNĐ</td>
+<td>Không khói, phù hợp kho lạnh – xưởng</td>
+</tr>
+<tr>
+<td>Xe nâng tay / bán tự động</td>
+<td>_</td>
+<td>_</td>
+<td>250.000 – 350.000 VNĐ</td>
+<td>_</td>
+<td>Thường thuê kèm hỗ trợ bốc dỡ</td>
+</tr>
+<tr>
+<td>Dịch vụ nâng hạ container</td>
+<td>Tùy loại hàng</td>
+<td>_</td>
+<td>1.500.000 – 4.000.000 VNĐ</td>
+<td>_</td>
+<td>Máy móc, kiện hàng, pallet</td>
+</tr>
+<tr>
+<td>Dịch vụ di dời – lắp đặt máy móc</td>
+<td>1 – 20 tấn</td>
+<td>Báo theo khảo sát</td>
+<td>Báo theo hạng mục</td>
+<td>Báo theo dự án</td>
+<td>Thường dùng kèm rùa – đội thủy lực</td>
+</tr>
+<tr>
+<td>Kỹ thuật viên vận hành</td>
+<td>_</td>
+<td>150.000 – 250.000 VNĐ</td>
+<td>500.000 – 800.000 VNĐ</td>
+<td>_</td>
+<td>Bắt buộc đối với xe nâng tải lớn</td>
+</tr>
+</tbody>
+</table>
 
 <p><em><strong>Lưu ý:</strong></em></p>
 <ul>
@@ -329,14 +343,14 @@ Bắt buộc đối với xe nâng tải lớn
 
 <p><em><strong>Liên hệ ngay để được tư vấn phương án tối ưu và báo giá minh bạch, đảm bảo đúng tiến độ và an toàn trong từng hạng mục thi công!</strong></em></p>
     
-  </div></main>
+    </div></main>
   <footer class="footer"><div class="wrap"><p>Hotline 0908.685.815 - 0938.766.815</p></div></footer>
-  <div class="sub">Nâng Cẩu Thiên Phú</div>
+  <div class="sub">Website được thiết kế bởi <a href="https://butphamarketing.com" target="_blank" rel="noopener">butphamarketing.com</a></div>
   <div class="float">
     <a href="https://zalo.me/0908685815"><img src="https://xecauthienphu.com/images/zalo.png" alt="Zalo"></a>
     <a href="tel:0908685815"><img src="https://xecauthienphu.com/images/call1.png" alt="Gọi"></a>
   </div>
   <script src="js/site.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>

@@ -135,8 +135,17 @@ function clean(html) {
   });
   source = source.replace(/<\/a\s*>/gi, () => keep("</a>"));
   source = source.replace(/<br\s*\/?>/gi, () => keep("<br>"));
-  source = source.replace(/<\/(p|strong|b|em|ul|ol|li|h2|h3)\s*>/gi, (_, name) => keep(`</${name.toLowerCase()}>`));
-  source = source.replace(/<(p|strong|b|em|ul|ol|li|h2|h3)\b[^>]*>/gi, (_, name) => keep(`<${name.toLowerCase()}>`));
+  source = source.replace(/<\/(p|strong|b|em|ul|ol|li|h2|h3|h4|table|thead|tbody|tr|th|td|caption)\s*>/gi, (_, name) => keep(`</${name.toLowerCase()}>`));
+  source = source.replace(/<(table|thead|tbody|tr|caption)\b[^>]*>/gi, (_, name) => keep(`<${name.toLowerCase()}>`));
+  source = source.replace(/<(th|td)\b([^>]*)>/gi, (_, name, attrs) => {
+    const extra = [];
+    const col = String(attrs).match(/colspan=["']?(\d+)/i);
+    const row = String(attrs).match(/rowspan=["']?(\d+)/i);
+    if (col) extra.push(` colspan="${col[1]}"`);
+    if (row) extra.push(` rowspan="${row[1]}"`);
+    return keep(`<${name.toLowerCase()}${extra.join("")}>`);
+  });
+  source = source.replace(/<(p|strong|b|em|ul|ol|li|h2|h3|h4)\b[^>]*>/gi, (_, name) => keep(`<${name.toLowerCase()}>`));
   source = source.replace(/<[^>]+>/g, "");
   source = source.replace(/\u0000(\d+)\u0000/g, (_, id) => tokens[Number(id)]);
   source = source.replace(/<[^>]*$/g, "");
@@ -393,7 +402,11 @@ async function main() {
   console.log("DONE", parsed.size);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
+}
+
+module.exports = { get, parseArticle, esc };

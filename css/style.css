@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600;700;800&display=swap");
 :root {
   --blue: #ed3237;
   --gold: #e6b325;
@@ -119,25 +120,25 @@ h1, h2, h3 { line-height: 1.3; }
   align-items: center;
   padding: 12px 0 10px;
 }
-.logo { display: block; text-align: center; color: #e10600; }
+.logo { display: block; text-align: center; color: #e10600; font-family: "Be Vietnam Pro", "Segoe UI", sans-serif; }
 .logo img { width: 112px; height: auto; margin: 0 auto; }
-.logo span { display: block; margin-top: -4px; font-size: 15px; font-weight: 900; letter-spacing: .4px; line-height: 1; }
-.brand { min-width: 0; text-align: center; }
+.logo span { display: block; margin-top: -2px; font-size: 13px; font-weight: 800; letter-spacing: .12em; line-height: 1; }
+.brand { min-width: 0; text-align: center; font-family: "Be Vietnam Pro", "Segoe UI", sans-serif; }
 .brand-name {
   margin: 0;
-  color: #e10600;
-  font-size: clamp(20px, 2.4vw, 32px);
-  font-weight: 900;
-  line-height: 1.05;
-  letter-spacing: .2px;
+  color: #e30613;
+  font-size: clamp(22px, 2.15vw, 30px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: .045em;
   text-transform: uppercase;
 }
 .brand-co {
-  margin: 1px 0 6px;
-  color: #1d4f9c;
-  font-size: clamp(11px, 1.15vw, 14px);
-  font-weight: 800;
-  letter-spacing: .3px;
+  margin: 3px 0 8px;
+  color: #1f4fae;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .11em;
   text-transform: uppercase;
 }
 .brand-line {
@@ -145,18 +146,25 @@ h1, h2, h3 { line-height: 1.3; }
   align-items: flex-start;
   justify-content: center;
   gap: 6px;
-  margin: 1px 0;
-  color: #222;
-  font-size: clamp(12px, 1.05vw, 14px);
-  font-weight: 600;
-  line-height: 1.35;
+  margin: 2px 0;
+  color: #3a3a3a;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.45;
 }
-.brand-line svg { width: 15px; height: 15px; margin-top: 2px; flex: none; }
-.brand-line b { font-weight: 800; }
+.brand-line svg { width: 14px; height: 14px; margin-top: 3px; flex: none; }
+.brand-line b, .brand-contact .lbl { font-weight: 600; color: #1c1c1c; }
 .brand-contact { align-items: center; flex-wrap: wrap; gap: 6px 8px; }
-.brand-contact .lbl { font-weight: 800; }
-.brand-contact a { color: #e10600; font-weight: 700; }
-.brand-contact .bar { color: #bbb; }
+.brand-contact a { color: #e30613; font-weight: 600; }
+.brand-contact .bar {
+  width: 1px;
+  height: 12px;
+  margin: 0 2px;
+  background: #d5d5d5;
+  color: transparent;
+  overflow: hidden;
+  font-size: 0;
+}
 .head-side { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
 .hotline-box {
   display: inline-flex;
@@ -191,7 +199,8 @@ h1, h2, h3 { line-height: 1.3; }
   78% { transform: translate3d(-1px, 0, 0) rotate(-3deg); }
   82% { transform: translate3d(0, 0, 0) rotate(0); }
 }
-.hotline-box, .soc-zalo, .float a { animation: tp-shake 1.7s ease-in-out infinite; transform-origin: center; }
+.float a { animation: tp-shake 1.7s ease-in-out infinite; transform-origin: center; }
+.hotline-box, .head-social a { animation: none; }
 .float a:nth-child(2) { animation-delay: .25s; }
 .head-social { display: flex; align-items: stretch; }
 .head-social a {
@@ -265,10 +274,19 @@ h1, h2, h3 { line-height: 1.3; }
 .slides, .slide { position: absolute; inset: 0; width: 100%; height: 100%; }
 .slide { max-height: none; object-fit: cover; object-position: center; opacity: 0; transition: opacity .8s ease; z-index: 0; }
 .slide.on { opacity: 1; z-index: 1; }
-.reveal { animation: rise .7s ease both; }
+.reveal, html.motion .rise.in { animation: rise .75s ease both; }
 .reveal-delay { animation-delay: .12s; }
+html.motion .rise {
+  opacity: 0;
+  transform: translateY(46px);
+}
+html.motion .rise.in {
+  opacity: 1;
+  transform: none;
+  animation: rise .75s ease both;
+}
 @keyframes rise {
-  from { opacity: 0; transform: translateY(28px); }
+  from { opacity: 0; transform: translateY(46px); }
   to { opacity: 1; transform: none; }
 }
 .hero button {
@@ -605,6 +623,9 @@ h1, h2, h3 { line-height: 1.3; }
 .article-gallery img { width: 100%; height: 180px; object-fit: cover; margin: 0; }
 .article .source { color: #777; font-size: 13px; text-align: left; }
 .article .source a, .article a.more { color: var(--red); font-weight: 700; }
+.article table { width: 100%; border-collapse: collapse; margin: 14px 0 18px; font-size: 14px; }
+.article th, .article td { border: 1px solid #f0d4d4; padding: 8px 10px; text-align: left; vertical-align: top; }
+.article th { background: #fff6f6; color: #c4252b; }
 .news-list { display: grid; gap: 16px; }
 .news-item {
   display: grid;
@@ -652,7 +673,8 @@ h1, h2, h3 { line-height: 1.3; }
 .footer a::before { content: "› "; }
 .footer-map { height: 280px; margin-top: 18px; border-radius: 12px; overflow: hidden; background: #eee; }
 .footer-map iframe { width: 100%; height: 100%; border: 0; }
-.sub { background: #efe6e2; color: #1c1c1c; text-align: center; padding: 12px; font-size: 18px; font-weight: 800; border-top: 1px solid #eadfdc; }
+.sub { background: #efe6e2; color: #1c1c1c; text-align: center; padding: 12px; font-size: 16px; font-weight: 700; border-top: 1px solid #eadfdc; }
+.sub a { color: #e30613; }
 
 .float {
   position: fixed;

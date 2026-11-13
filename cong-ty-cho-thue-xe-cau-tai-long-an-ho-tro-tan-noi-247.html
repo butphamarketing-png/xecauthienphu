@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CÔNG TY CHO THUÊ XE CẨU TẠI LONG AN - HỖ TRỢ TẬN NƠI 24/7 - Nâng Cẩu Thiên Phú</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=19">
 </head>
 <body>
   <div class="loader" id="loader" role="status">
@@ -14,14 +14,28 @@
     <p class="loader-wait">Đang tải, vui lòng đợi ...</p>
   </div>
   <script>
-    document.documentElement.classList.add("is-loading");
-    setTimeout(function () {
-      var el = document.getElementById("loader");
-      document.documentElement.classList.remove("is-loading");
-      if (!el) return;
-      el.classList.add("off");
-      setTimeout(function () { el.remove(); }, 500);
-    }, 3000);
+    (function () {
+      var root = document.documentElement;
+      function play() {
+        var el = document.getElementById("loader");
+        if (!el) return;
+        el.classList.remove("off");
+        root.classList.add("is-loading");
+        clearTimeout(play.timer);
+        play.timer = setTimeout(function () {
+          root.classList.remove("is-loading");
+          el.classList.add("off");
+        }, 3000);
+      }
+      if (document.prerendering) {
+        document.addEventListener("prerenderingchange", play, { once: true });
+      } else {
+        play();
+      }
+      window.addEventListener("pageshow", function (e) {
+        if (e.persisted) play();
+      });
+    })();
   </script>
   <div class="ticker"><div class="ticker-track"><p>» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p><p aria-hidden="true">» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p></div></div>
   <header class="top">
@@ -70,184 +84,184 @@
 <h2><strong>Bảng giá cho thuê xe cẩu tại Long An cập nhật mới nhất 2026</strong></h2>
 <p>Để quý khách hàng dễ dàng hoạch định ngân sách cho dự án của mình, Xe cẩu Thiên Phú xin công khai bảng giá dịch vụ mang tính chất tham khảo. Mức giá thực tế sẽ phụ thuộc vào độ phức tạp của mặt bằng, khoảng cách di chuyển và thời gian thuê (theo ca, theo ngày, hay theo tháng).</p>
 <h3><b>Bảng giá thuê xe cẩu tự hành (Xe cẩu thùng) theo ca (8 tiếng)</b></h3>
-
-
-
-
+<table>
+<tbody>
+<tr>
+<td>
 <p><strong>STT</strong></p>
-
-
+</td>
+<td>
 <p><strong>TẢI TRỌNG XE CẨU THÙNG</strong></p>
-
-
+</td>
+<td>
 <p><strong>ĐƠN GIÁ THUÊ THEO CA (VNĐ)</strong></p>
-
-
+</td>
+<td>
 <p><strong>GHI CHÚ</strong></p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>1</p>
-
-
+</td>
+<td>
 <p>Xe cẩu tự hành 2.5 Tấn</p>
-
-
+</td>
+<td>
 <p>2.500.000 - 3.200.000</p>
-
-
+</td>
+<td>
 <p>Đã bao gồm tài xế &amp; nhiên liệu</p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>2</p>
-
-
+</td>
+<td>
 <p>Xe cẩu tự hành 3.5 Tấn</p>
-
-
+</td>
+<td>
 <p>3.000.000 - 3.800.000</p>
-
-
+</td>
+<td>
 <p>Thích hợp chạy nội thành, ngõ nhỏ</p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>3</p>
-
-
+</td>
+<td>
 <p>Xe cẩu tự hành 5 Tấn</p>
-
-
+</td>
+<td>
 <p>3.800.000 - 4.500.000</p>
-
-
+</td>
+<td>
 <p>Dòng xe thông dụng nhất</p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>4</p>
-
-
+</td>
+<td>
 <p>Xe cẩu tự hành 8 Tấn</p>
-
-
+</td>
+<td>
 <p>5.000.000 - 6.000.000</p>
-
-
+</td>
+<td>
 <p>Cần cẩu dài, tầm với xa</p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>5</p>
-
-
+</td>
+<td>
 <p>Xe cẩu tự hành 10 – 12 Tấn</p>
-
-
+</td>
+<td>
 <p>6.500.000 - 7.500.000</p>
-
-
+</td>
+<td>
 <p>Phục vụ cẩu lắp ráp kết cấu thép</p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>6</p>
-
-
+</td>
+<td>
 <p>Xe cẩu tự hành 15 Tấn</p>
-
-
+</td>
+<td>
 <p>8.000.000 - 9.500.000</p>
-
-
+</td>
+<td>
 <p>Sức nâng lớn, thùng xe rộng rãi</p>
-
-
-
-
+</td>
+</tr>
+</tbody>
+</table>
 
 <h3><strong>Bảng giá thuê xe cẩu chuyên dụng (Xe cẩu Kato) theo ca (8 tiếng)</strong></h3>
-
-
-
-
+<table>
+<tbody>
+<tr>
+<td>
 <p><strong>STT</strong></p>
-
-
+</td>
+<td>
 <p><strong>SỨC NÂNG XE CẨU CHUYÊN DỤNG</strong></p>
-
-
+</td>
+<td>
 <p><strong>ĐƠN GIÁ THUÊ THEO CA (VNĐ)</strong></p>
-
-
+</td>
+<td>
 <p><strong>ỨNG DỤNG THI CÔNG</strong></p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>1</p>
-
-
+</td>
+<td>
 <p>Xe cẩu Kato 20 – 25 Tấn</p>
-
-
+</td>
+<td>
 <p>7.000.000 – 8.500.000</p>
-
-
+</td>
+<td>
 <p>Cẩu hạ máy móc, rút container</p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>2</p>
-
-
+</td>
+<td>
 <p>Xe cẩu Kato 35 – 50 Tấn</p>
-
-
+</td>
+<td>
 <p>9.000.000 – 12.000.000</p>
-
-
+</td>
+<td>
 <p>Lắp đặt bồn công nghiệp, lò hơi</p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>3</p>
-
-
+</td>
+<td>
 <p>Xe cẩu Kato 80 – 100 Tấn</p>
-
-
+</td>
+<td>
 <p>Liên hệ Hotline</p>
-
-
+</td>
+<td>
 <p>Lắp dựng tháp, dầm cầu bê tông</p>
-
-
-
-
+</td>
+</tr>
+<tr>
+<td>
 <p>4</p>
-
-
+</td>
+<td>
 <p>Xe cẩu Kato 150 – 200 Tấn</p>
-
-
+</td>
+<td>
 <p>Liên hệ Hotline</p>
-
-
+</td>
+<td>
 <p>Phục vụ các dự án siêu trường siêu trọng</p>
-
-
-
-
+</td>
+</tr>
+</tbody>
+</table>
 <p> <em><strong>Lưu ý:</strong></em> <em>Đối với các hợp đồng thuê xe cẩu theo tháng, theo dự án dài hạn hoặc thuê số lượng lớn, Xe cẩu Thiên Phú luôn có chính sách chiết khấu thương mại từ 10% đến 20% cùng nhiều đặc quyền ưu đãi khác.</em></p>
 <h2>Chi tiết các dịch vụ xe cẩu do thiên phú cung cấp tại Long An</h2>
 <p>Để trở thành điểm tựa vững chắc cho các doanh nghiệp, xe cẩu Thiên Phú không ngừng đa dạng hóa danh mục dịch vụ, chuẩn hóa kỹ thuật vận hành cho từng dòng xe cụ thể.</p>
@@ -352,14 +366,14 @@
 </ul>
 <p>Nếu doanh nghiệp của bạn đang chuẩn bị triển khai dự án, di dời nhà xưởng hay bốc dỡ kiện hàng nặng tại Long An, đừng ngần ngại nhấc máy lên và gọi ngay cho chúng tôi để trải nghiệm một dịch vụ xe cẩu đẳng cấp, tận tâm và an toàn tuyệt đối.</p>
     
-  </div></main>
+    </div></main>
   <footer class="footer"><div class="wrap"><p>Hotline 0908.685.815 - 0938.766.815</p></div></footer>
-  <div class="sub">Nâng Cẩu Thiên Phú</div>
+  <div class="sub">Website được thiết kế bởi <a href="https://butphamarketing.com" target="_blank" rel="noopener">butphamarketing.com</a></div>
   <div class="float">
     <a href="https://zalo.me/0908685815"><img src="https://xecauthienphu.com/images/zalo.png" alt="Zalo"></a>
     <a href="tel:0908685815"><img src="https://xecauthienphu.com/images/call1.png" alt="Gọi"></a>
   </div>
   <script src="js/site.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>

@@ -111,20 +111,30 @@
     }
 
     var blocks = document.querySelectorAll(
-      ".intro-card, .highlights li, .section h2, .card, .stats, .shots h2, .shot-lead, .shot-grid a, .shot-more, .book-card > img, .book-card > div, .news-home h2, .news-card, .footer"
+      "main > section, main .news-item, main .article > h1, main .article > p, main .article > ul, main .article > ol, main .article img, main .gallery img, .footer"
     );
+    document.documentElement.classList.add("motion");
+    blocks.forEach(function (el) { el.classList.add("rise"); });
+    function reveal() {
+      var line = (window.innerHeight || 800) * 0.92;
+      blocks.forEach(function (el) {
+        if (el.classList.contains("in")) return;
+        var box = el.getBoundingClientRect();
+        if (box.top < line && box.bottom > 0) el.classList.add("in");
+      });
+    }
+    window.addEventListener("scroll", reveal, { passive: true });
+    window.addEventListener("resize", reveal);
+    requestAnimationFrame(function () { requestAnimationFrame(reveal); });
     if ("IntersectionObserver" in window) {
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (!entry.isIntersecting) return;
-          entry.target.classList.add("reveal");
+          entry.target.classList.add("in");
           io.unobserve(entry.target);
         });
-      }, { threshold: 0.18, rootMargin: "0px 0px -8% 0px" });
-      blocks.forEach(function (el, i) {
-        if (i % 4 === 3) el.classList.add("reveal-delay");
-        io.observe(el);
-      });
+      }, { threshold: 0.12, rootMargin: "0px 0px -6% 0px" });
+      blocks.forEach(function (el) { io.observe(el); });
     }
   }
 })();

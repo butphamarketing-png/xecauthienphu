@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DỊCH VỤ THUÊ XE NÂNG CHO NHÀ MÁY &amp; KCN LONG AN - Nâng Cẩu Thiên Phú</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=19">
 </head>
 <body>
   <div class="loader" id="loader" role="status">
@@ -14,14 +14,28 @@
     <p class="loader-wait">Đang tải, vui lòng đợi ...</p>
   </div>
   <script>
-    document.documentElement.classList.add("is-loading");
-    setTimeout(function () {
-      var el = document.getElementById("loader");
-      document.documentElement.classList.remove("is-loading");
-      if (!el) return;
-      el.classList.add("off");
-      setTimeout(function () { el.remove(); }, 500);
-    }, 3000);
+    (function () {
+      var root = document.documentElement;
+      function play() {
+        var el = document.getElementById("loader");
+        if (!el) return;
+        el.classList.remove("off");
+        root.classList.add("is-loading");
+        clearTimeout(play.timer);
+        play.timer = setTimeout(function () {
+          root.classList.remove("is-loading");
+          el.classList.add("off");
+        }, 3000);
+      }
+      if (document.prerendering) {
+        document.addEventListener("prerenderingchange", play, { once: true });
+      } else {
+        play();
+      }
+      window.addEventListener("pageshow", function (e) {
+        if (e.persisted) play();
+      });
+    })();
   </script>
   <div class="ticker"><div class="ticker-track"><p>» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p><p aria-hidden="true">» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «</p></div></div>
   <header class="top">
@@ -158,12 +172,12 @@
     
   </div></main>
   <footer class="footer"><div class="wrap"><p>Hotline 0908.685.815 - 0938.766.815</p></div></footer>
-  <div class="sub">Nâng Cẩu Thiên Phú</div>
+  <div class="sub">Website được thiết kế bởi <a href="https://butphamarketing.com" target="_blank" rel="noopener">butphamarketing.com</a></div>
   <div class="float">
     <a href="https://zalo.me/0908685815"><img src="https://xecauthienphu.com/images/zalo.png" alt="Zalo"></a>
     <a href="tel:0908685815"><img src="https://xecauthienphu.com/images/call1.png" alt="Gọi"></a>
   </div>
   <script src="js/site.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/main.js?v=7"></script>
 </body>
 </html>

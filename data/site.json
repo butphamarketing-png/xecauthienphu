@@ -20,7 +20,7 @@
     "logo": "https://xecauthienphu.com/images/2.png",
     "wordmark": "https://xecauthienphu.com/images/3-1.png",
     "ticker": "» Cho thuê xe nâng – xe cẩu – bốc dỡ, vận chuyển máy móc công nghiệp tại TP.HCM, Long An, Bình Dương, Đồng Nai. Liên hệ ngay: 0908.685.815 «",
-    "tagline": "Nâng Cẩu Thiên Phú — cho thuê xe nâng, xe cẩu"
+    "tagline": "Website được thiết kế bởi butphamarketing.com"
   },
   "home": {
     "introImage": "https://xecauthienphu.com/images/xecau/z4859294781057_338ee9af0a239de1cff2a4a4bf1050ef.jpg",
@@ -304,7 +304,7 @@
     {
       "title": "Cho Thuê Xe Nâng Hàng Tại TP.HCM Và Các Tỉnh Lân Cận",
       "excerpt": "Trong hoạt động sản xuất, kinh doanh và vận hành kho bãi, việc nâng hạ, di chuyển hàng hóa có trọng lượng lớn là công việc diễn ra thường xuyên. Để tiết kiệm thời gian, nhân lực và tối ưu chi phí vận hành, nhiều doanh ng",
-      "image": "https://xecauthienphu.com/images/2.png",
+      "image": "https://xecauthienphu.com/images/xenang/20200222_080608.jpg",
       "href": "cho-thue-xe-nang-hang.html",
       "home": true,
       "bullets": [
@@ -492,14 +492,24 @@
       "href": "nang-ha-may-moc-tai-long-an.html",
       "home": false,
       "bullets": []
+    },
+    {
+      "title": "CẨU MÁY LÊN LẦU TẠI LONG AN - AN TOÀN, GIÁ TỐT | THIÊN PHÚ",
+      "excerpt": "Dịch Vụ Cẩu Máy Lên Lầu Tại Long An – Giải Pháp An Toàn Cho Mọi Công Trình",
+      "image": "https://xecauthienphu.com/images/cau-may-len-cau-long-an/avt-cau-may-len-lau.jpg",
+      "href": "cau-may-len-lau.html",
+      "home": false,
+      "bullets": [
+        "Chuyên cung cấp dịch vụ Cẩu máy lên lầu tại Long An, đáp ứng mọi nhu cầu nâng hạ, di dời và lắp đặt máy móc, thiết bị công trình, dầm thép, ",
+        "Long An đang trở thành trung tâm công nghiệp và logistics quan trọng của vùng kinh tế phía Nam. Tỉnh quy hoạch hàng chục khu công nghiệp lớn",
+        "bị nặng tăng cao. Nhiều doanh nghiệp, nhà thầu đang cần:"
+      ]
     }
   ],
   "about": {
     "image": "https://xecauthienphu.com/images/anh/a1.jpg",
     "paragraphs": [
-      "Trước hết, ban lãnh đạo cùng toàn thể nhân viên Công ty xin cảm ơn Quý công ty đã tín nhiệm và hợp tác. Công ty TNHH Giao nhận Vận tải Thiên Phú hoạt động trong lĩnh vực nâng chuyển, bốc dỡ hàng hóa, máy móc công nghiệp nặng, lên xuống hàng container, cho thuê xe nâng và xe cẩu.",
-      "Trang thiết bị gồm xe nâng, xe tải, xe cẩu các loại, xe nâng tay, đội thủy lực và rùa đẩy máy, phục vụ vận chuyển và nâng hạ máy móc thiết bị công nghiệp.",
-      "Khu vực phục vụ: TP.HCM, Long An, Bình Dương, Đồng Nai và các tỉnh lân cận. Hotline 0908.685.815 - 0938.766.815."
+      "Trước hết, ban lãnh đạo cùng toàn thể nhân viên Công ty xin chân thành gửi lời cảm ơn đến Quý Công ty đã tín nhiệm và hợp tác với Công ty chúng tôi trong thời gian qua. Công Ty hoạt động trong lĩnh vực nâng chuyển, bốc dỡ hàng hóa , máy móc công nghiệp nặng, lên xuống hàng container, cho thuê xe nâng, xe cẩu, với đội ngũ nhân viên nhiệt tình, nhiều kinh nghiệm và máy móc chuyên dụng…. Với trang thiết bị xe nâng, xe tải, xe cẩu các loại, cộng với các loại trang thiết bị, dụng cụ đồ nghề chuyên dụng như xe nâng tay, đội thủy lực, rùa đẩy máy,… phục vụ cho việc vận chuyển, nâng hạ máy móc thiết bị công nghiệp …"
     ]
   },
   "crane": {
