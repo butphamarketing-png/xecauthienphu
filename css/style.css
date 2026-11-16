@@ -324,13 +324,16 @@ html.motion .rise.in {
   object-fit: cover;
   border-radius: 14px;
 }
+.intro-card h1,
 .intro-card h2 {
   margin: 0 0 10px;
   color: #1c1c1c;
   font-size: 30px;
   text-align: left;
 }
+.intro-card h1 span,
 .intro-card h2 span { color: var(--red); }
+.article .more-links { margin: 16px 0 0; }
 .intro-card p { margin: 0 0 12px; color: #444; }
 .checks { list-style: none; display: grid; gap: 8px; margin: 0 0 16px; }
 .checks li { display: flex; gap: 8px; align-items: flex-start; }
@@ -709,6 +712,7 @@ html.motion .rise.in {
   .stats li:nth-child(odd)::before { display: none; }
   .intro-card { grid-template-columns: 1fr; }
   .intro-card > div { order: 1; }
+  .intro-card h1 span,
   .intro-card h2 span { white-space: nowrap; }
   .intro-card img { order: 2; height: 220px; }
   .checks { display: none; }
