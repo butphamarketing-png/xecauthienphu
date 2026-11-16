@@ -205,7 +205,8 @@ const server = http.createServer(async (req, res) => {
   const filePath = safeFile(pathname);
   if (!filePath) return send(res, 403, "forbidden", "text/plain; charset=utf-8");
   fs.stat(filePath, (statErr, stat) => {
-    const finalPath = !statErr && stat.isDirectory() ? path.join(filePath, "index.html") : filePath;
+    let finalPath = !statErr && stat.isDirectory() ? path.join(filePath, "index.html") : filePath;
+    if (statErr && !path.extname(pathname)) finalPath = filePath + ".html";
     fs.readFile(finalPath, (err, data) => {
       if (err) return send(res, 404, "not found", "text/plain; charset=utf-8");
       send(res, 200, data, types[path.extname(finalPath)] || "application/octet-stream");
