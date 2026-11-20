@@ -632,6 +632,9 @@ html.motion .rise.in {
 .article img, .article img.wide { width: 100%; max-width: 100%; height: auto; max-height: none; object-fit: contain; border-radius: 12px; margin: 12px 0; }
 .article-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 16px; }
 .article-gallery img { width: 100%; height: 180px; object-fit: cover; margin: 0; }
+.article-gallery.media { display: flex; flex-wrap: wrap; }
+.article-gallery.media img, .article-gallery.media video { width: min(100%, 360px); height: auto; max-height: none; object-fit: contain; background: #111; margin: 0; }
+.gallery.tall video { height: auto; max-height: 480px; object-fit: contain; }
 .article .source { color: #777; font-size: 13px; text-align: left; }
 .article .source a, .article a.more { color: var(--red); font-weight: 700; }
 .article table { width: 100%; border-collapse: collapse; margin: 14px 0 18px; font-size: 14px; }

@@ -104,7 +104,7 @@
     {
       "title": "Dịch vụ nâng cẩu hàng hóa",
       "href": "dich-vu-nang-cau-hang-hoa.html",
-      "image": "/images/thumb/bai-xe.jpg",
+      "image": "/images/thuc-te/cau-ha-khuon-1.jpg",
       "home": true,
       "footer": true
     },
@@ -132,7 +132,7 @@
     {
       "title": "Đóng pallet - kiện gỗ xuất khẩu",
       "href": "dong-pallet.html",
-      "image": "/images/thumb/nang-len-xe.jpg",
+      "image": "/images/thuc-te/kien-go-xe-nang.jpg",
       "home": true,
       "footer": true
     },
@@ -176,7 +176,7 @@
     {
       "id": "nang-cau",
       "title": "Nâng cẩu hàng hóa, máy móc",
-      "image": "/images/thumb/xe-cau.jpg",
+      "image": "/images/thuc-te/cau-ha-khuon-1.jpg",
       "body": "Với nhiều năm kinh nghiệm trong lĩnh vực vận tải chúng tôi tự hào là đơn vị có dịch vụ nâng cẩu hàng hóa tại tphcm đi đầu và giá cả cạnh tranh nhất với phạm vi hoạt động khắp các tỉnh miền nam .Chúng tôi luôn phục vụ nhanh chóng khi khách hàng có nhu cầu cẩu hàng, di dời các vật nặng không thể dùng sức người. Những thế mạnh về nâng cẩu hàng hóa của Thiên Phú :",
       "links": [
         {
@@ -240,7 +240,7 @@
     {
       "id": "pallet",
       "title": "Đóng pallet - kiện gỗ xuất khẩu",
-      "image": "/images/thumb/di-doi-may.jpg",
+      "image": "/images/thuc-te/kien-go-xe-nang.jpg",
       "body": "Dịch vụ nhận đóng pallet gỗ theo yêu cầu trọn gói Pallet gỗ là một loại trong các loại pallet nói chung, hiểu nôm na là những tấm gỗ đóng bằng thanh gỗ, thanh nan trên – giữa – dưới, cây đố khuyết hoặc thẳng thường gọi là gỗ pallet. Các thanh gỗ liên kết chặt chẽ tạo nên kết cấu bền vững, bề mặt phẳng thuận lợi cho vận chuyển hàng hóa.",
       "links": [
         {
@@ -294,6 +294,98 @@
     {
       "src": "/images/thumb/xe-nang-nguoi.jpg",
       "alt": "Xe nâng người"
+    },
+    {
+      "src": "/images/nangcau/20230621_225904.jpg",
+      "alt": "Xe nâng làm việc ban đêm"
+    },
+    {
+      "src": "/images/nangcau/20231028_013141.jpg",
+      "alt": "Xe cẩu nâng máy lên thùng xe ban đêm"
+    },
+    {
+      "src": "/images/nangcau/20230728_183821.jpg",
+      "alt": "Xe nâng trong nhà xưởng"
+    },
+    {
+      "src": "/images/nangcau/20230826_094021.jpg",
+      "alt": "Xe cẩu và xe nâng trong xưởng"
+    },
+    {
+      "src": "/images/xenang/20200222_080608.jpg",
+      "alt": "Xe nâng Yale tại bãi"
+    },
+    {
+      "src": "/images/dich-vu/pallet/IMG_20230526_122137.jpg",
+      "alt": "Xe nâng chuyển kiện hàng bọc màng"
+    },
+    {
+      "src": "/images/dich-vu/pallet/IMG_20230526_163134.jpg",
+      "alt": "Xe nâng tại bãi xếp hàng"
+    },
+    {
+      "src": "/images/anh/a1.jpg",
+      "alt": "Hai xe nâng cùng nâng một máy"
+    },
+    {
+      "src": "/images/tin-tuc/long-an/IMG_20230518_161621.jpg",
+      "alt": "Xe nâng làm việc tại xưởng"
+    },
+    {
+      "src": "/images/cau-may-len-cau-long-an/cau-may-len-lau-long-an2.jpg",
+      "alt": "Cẩu kết cấu thép"
+    },
+    {
+      "src": "/images/nangcau/z4879905229851_404bf6d3531d56d320c591a8be9f9094.jpg",
+      "alt": "Xe nâng trước kiện gỗ trên xe"
+    },
+    {
+      "src": "/images/xecau/z4879859603967_76e9bd9fe0f9fd8c4e593885239aa240.jpg",
+      "alt": "Xe cẩu đỗ trước tòa nhà"
+    },
+    {
+      "src": "/images/dich-vu/van-chuyen-may-long-an/van-chuyen-may-4.jpg",
+      "alt": "Cẩu máy từ thùng xe"
+    },
+    {
+      "src": "/images/xecau/z4859294781057_338ee9af0a239de1cff2a4a4bf1050ef.jpg",
+      "alt": "Xe nâng đưa máy lên xe cẩu"
+    },
+    {
+      "src": "/images/anh/a3.jpg",
+      "alt": "Xe nâng di chuyển máy trên đường"
+    },
+    {
+      "src": "/images/dich-vu/rut-cont-may-tphcm/rut-cont-may-5.png",
+      "alt": "Xe xếp container tại bãi"
+    },
+    {
+      "src": "/images/cau-may-len-cau-long-an/cau-may-len-lau-long-an1.jpg",
+      "alt": "Cẩu máy đã quấn màng"
+    },
+    {
+      "src": "/images/slideshow/bn3.png",
+      "alt": "Xe nâng cạnh container"
+    },
+    {
+      "src": "/images/thuc-te/kien-go-xe-nang.jpg",
+      "alt": "Xe nâng chuyển kiện gỗ"
+    },
+    {
+      "src": "/images/thuc-te/kien-go-sat-tuong.jpg",
+      "alt": "Xe nâng nâng kiện gỗ tại xưởng"
+    },
+    {
+      "src": "/images/thuc-te/xe-nang-cua-cont.jpg",
+      "alt": "Xe nâng tại cửa container"
+    },
+    {
+      "src": "/images/thuc-te/cau-ha-khuon-1.jpg",
+      "alt": "Xe cẩu hạ khuôn trong xưởng"
+    },
+    {
+      "src": "/images/thuc-te/cau-ha-khuon-2.jpg",
+      "alt": "Xe cẩu đưa khuôn xuống hố móng"
     }
   ],
   "news": [
@@ -312,7 +404,7 @@
     {
       "title": "Cho Thuê Xe Nâng Hàng Tại TP.HCM Và Các Tỉnh Lân Cận",
       "excerpt": "Trong hoạt động sản xuất, kinh doanh và vận hành kho bãi, việc nâng hạ, di chuyển hàng hóa có trọng lượng lớn là công việc diễn ra thường xuyên. Để tiết kiệm thời gian, nhân lực và tối ưu chi phí vận hành, nhiều doanh ng",
-      "image": "/images/thumb/boc-cont.jpg",
+      "image": "/images/thuc-te/kien-go-xe-nang.jpg",
       "href": "cho-thue-xe-nang-hang.html",
       "home": true,
       "bullets": [
@@ -384,7 +476,7 @@
     {
       "title": "THUÊ XE NÂNG HÀNG TẠI LONG AN",
       "excerpt": "Cho Thuê Xe Nâng Hàng Tại Long An – Giá Tốt, Uy Tín, Có Mặt Ngay",
-      "image": "/images/thumb/di-doi-may.jpg",
+      "image": "/images/thuc-te/kien-go-sat-tuong.jpg",
       "href": "thue-xe-nang-hang-tai-long-an.html",
       "home": false,
       "bullets": [
@@ -468,7 +560,7 @@
     {
       "title": "VẬN CHUYỂN MÁY TẠI TP.HCM",
       "excerpt": "Vận Chuyển Máy TP.HCM Chuyên Nghiệp – Dịch Vụ Từ Công Ty TNHH Giao Nhận Vận Tải Thiên Phú",
-      "image": "/images/thumb/di-doi-may.jpg",
+      "image": "/images/thumb/van-chuyen-dem.jpg",
       "href": "van-chuyen-may-tai-tphcm.html",
       "home": false,
       "bullets": [
@@ -488,7 +580,7 @@
     {
       "title": "NÂU CẨ HÀNG TẠI TPHCM",
       "excerpt": "Nâng cẩu hàng chuyên nghệp tại TPHCM. hoàn thành công việc sau một ngày nắng nóng.",
-      "image": "/images/thumb/xe-cau.jpg",
+      "image": "/images/thuc-te/cau-ha-khuon-2.jpg",
       "href": "nau-ca-hang-tai-tphcm.html",
       "home": false,
       "bullets": []
@@ -496,7 +588,7 @@
     {
       "title": "Nâng hạ máy móc tại Long An",
       "excerpt": "Nâng hạ máy móc tại Long An",
-      "image": "/images/thumb/di-doi-may.jpg",
+      "image": "/images/thuc-te/cau-ha-khuon-1.jpg",
       "href": "nang-ha-may-moc-tai-long-an.html",
       "home": false,
       "bullets": []
