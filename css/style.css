@@ -649,6 +649,12 @@ html.motion .rise.in {
 .article .case h3 { margin: 0 0 6px; font-size: 16px; color: #c4252b; }
 .article .case p { margin-top: 0; }
 .article table { border-radius: 12px; }
+.article .call-card { background: #fff; border: 1px solid #f0d4d4; border-radius: 16px; padding: 16px 18px 8px; margin: 8px 0 0; box-shadow: 0 8px 20px rgba(237, 50, 55, .06); }
+.article .call-card .call-lead { margin: 0 0 12px; text-align: left; font-weight: 700; }
+.article .call-phones { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 10px; }
+.article .call-phones a { background: #ed3237; color: #fff; text-decoration: none; font-weight: 700; border-radius: 999px; padding: 8px 14px; }
+.article .call-mail, .article .call-addr, .article .call-note { text-align: left; margin: 0 0 8px; }
+.article .call-yards { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 18px; margin: 0 0 12px; padding-left: 18px; }
 .article-gallery.media { display: flex; flex-wrap: wrap; }
 .article-gallery.media img, .article-gallery.media video { width: min(100%, 360px); height: auto; max-height: none; object-fit: contain; background: #111; margin: 0; }
 .gallery.tall video { height: auto; max-height: 480px; object-fit: contain; }
@@ -775,7 +781,7 @@ html.motion .rise.in {
   .book-card > img { height: 220px; min-height: 0; }
   .news-grid { grid-template-columns: 1fr; }
   .article-gallery { grid-template-columns: 1fr 1fr; }
-  .article .shot-row, .article .cases, .article .toc ol { grid-template-columns: 1fr; }
+  .article .shot-row, .article .cases, .article .toc ol, .article .call-yards { grid-template-columns: 1fr; }
   .article .shot-row img, .article .hero-shot img { height: auto; max-height: 320px; object-fit: cover; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-services { border-left: 0; padding-left: 0; padding-top: 14px; }
